@@ -1,1 +1,13 @@
 \select@language {german}
+\beamer@sectionintoc {2}{Historischer Überblick}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Theorie der Elektroschwachen Wechselwirkung}{4}{0}{1}
+\beamer@subsectionintoc {2}{2}{Indirekter Nachweis neutraler Ströme}{5}{0}{1}
+\beamer@sectionintoc {3}{Theorie}{5}{0}{2}
+\beamer@subsectionintoc {3}{1}{Einordnung im Standardmodell der Elementarteilchen}{6}{0}{2}
+\beamer@subsectionintoc {3}{2}{Elektroschwache Vereinheitlichung}{6}{0}{2}
+\beamer@subsectionintoc {3}{3}{Zerfallsbreite}{6}{0}{2}
+\beamer@sectionintoc {4}{Experimentelle Untersuchung}{6}{0}{3}
+\beamer@subsectionintoc {4}{1}{Erzeugung}{7}{0}{3}
+\beamer@subsectionintoc {4}{2}{LEP am CERN}{7}{0}{3}
+\beamer@subsectionintoc {4}{3}{LEP am CERN}{7}{0}{3}
+\beamer@sectionintoc {5}{Zusammenfassung}{7}{0}{4}

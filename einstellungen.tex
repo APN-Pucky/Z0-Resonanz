@@ -127,3 +127,12 @@ range=bfit/{greek,Greek,latin,Latin,num}]
 \newcommand{\email}[1]{\href{mailto:#1}{\texttt{#1}}}
 \newfontfamily\DejaSans{DejaVu Sans}
 
+\usepackage{nameref}
+\makeatletter
+\newcommand*{\currentname}{\@currentlabelname}
+\makeatother
+
+\newenvironment{iframe}{\begin{frame}	
+	\frametitle{\subsecname}	
+	%\framesubtitle{\subsecname}
+}{\end{frame}}
