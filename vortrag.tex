@@ -2,10 +2,11 @@
 % Auch „german“ muss angegeben werden, damit die Sprache (z.B. in siunitx)
 % auf Deutsch gestellt wird.
 \documentclass[german, ngerman]{beamer}
+%\documentclass[german, ngerman,notes=only]{beamer}
 
 \input{einstellungen.tex}
 
-\title[Z0 Resonanz]{Z0-Resonanz} %TODO mehr info hier?
+\title[Z0 Resonanz]{Z0-Resonanz} %TODO subtitle/logner titel
 %\subtitle{Untertitel}
 % \subject wird von der Vorlage nicht direkt verwendet
 %\subject{Thema}
@@ -16,6 +17,7 @@
 \date{\today}
 %\keywords{Münster, Fachschaft Physik}
 
+\bibliography{z0resonanz_ref.bib}
 \begin{document}
 
 % Titelfolie
@@ -23,9 +25,9 @@
 	\titlepage
 \end{frame}
 
-\section*{Outline}
+\section*{Gliederung}
 \begin{frame}
-\frametitle{Gliederung}
+\frametitle{\secname}
 \tableofcontents[hideallsubsections]
 \end{frame}
 
@@ -40,18 +42,21 @@
 \input{timeline}
 
 \section{Theorie}
-\subsection{Einordnung im Standardmodell der Elementarteilchen}
-\subsection{Elektroschwache Vereinheitlichung}
-\subsection{Zerfallsbreite}
+\note{hihi}
+\input{theory}
 \section{Experimentelle Untersuchung}
-\subsection{Erzeugung}
-\subsection{LEP am CERN}
-\subsection{LEP am CERN}
+\input{experiments}
 \section{Zusammenfassung}
+\input{conclusion}
+
+\begin{frame}[allowframebreaks]
+	\frametitle{Quellen}
+	\printbibliography[heading=none]
+\end{frame}
 
 \begin{frame}
 	\frametitle{Folien-Überschrift}
-
+	
 	Hier kommt Text!
 
 	\begin{block}{Ein "normaler" Block}

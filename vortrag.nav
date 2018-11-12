@@ -2,7 +2,7 @@
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\sectionentry {1}{Outline}{2}{Outline}{0}}
+\headcommand {\sectionentry {1}{Gliederung}{2}{Gliederung}{0}}
 \headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
 \headcommand {\beamer@sectionpages {2}{2}}
@@ -19,36 +19,40 @@
 \headcommand {\beamer@framepages {8}{8}}
 \headcommand {\beamer@subsectionpages {8}{8}}
 \headcommand {\beamer@subsectionentry {0}{3}{1}{9}{Einordnung im Standardmodell der Elementarteilchen}}
-\headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{9}{Elektroschwache Vereinheitlichung}}
-\headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{9}{Zerfallsbreite}}
-\headcommand {\beamer@sectionpages {8}{8}}
-\headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\sectionentry {4}{Experimentelle Untersuchung}{9}{Experimentelle Untersuchung}{0}}
-\headcommand {\slideentry {4}{0}{1}{9/9}{}{0}}
+\headcommand {\slideentry {3}{1}{1}{9/9}{Einordnung im Standardmodell der Elementarteilchen}{0}}
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{10}{Erzeugung}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{10}{Elektroschwache Vereinheitlichung}}
 \headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\beamer@subsectionentry {0}{4}{2}{10}{LEP am CERN}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{10}{Zerfallsbreite}}
+\headcommand {\beamer@sectionpages {8}{9}}
 \headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\beamer@subsectionentry {0}{4}{3}{10}{LEP am CERN}}
-\headcommand {\beamer@sectionpages {9}{9}}
-\headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\sectionentry {5}{Zusammenfassung}{10}{Zusammenfassung}{0}}
-\headcommand {\slideentry {5}{0}{1}{10/10}{}{0}}
+\headcommand {\sectionentry {4}{Experimentelle Untersuchung}{10}{Experimentelle Untersuchung}{0}}
+\headcommand {\slideentry {4}{0}{1}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {5}{0}{2}{11/11}{}{0}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{11}{Erzeugung}}
+\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{11}{LEP am CERN}}
+\headcommand {\beamer@sectionpages {10}{10}}
+\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\sectionentry {5}{Zusammenfassung}{11}{Zusammenfassung}{0}}
+\headcommand {\slideentry {5}{0}{1}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {5}{0}{3}{12/12}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {5}{0}{4}{13/13}{}{0}}
+\headcommand {\slideentry {5}{0}{3}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {5}{0}{5}{14/14}{}{0}}
+\headcommand {\slideentry {5}{0}{4}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@partpages {1}{14}}
-\headcommand {\beamer@subsectionpages {10}{14}}
-\headcommand {\beamer@sectionpages {10}{14}}
-\headcommand {\beamer@documentpages {14}}
-\headcommand {\gdef \inserttotalframenumber {10}}
+\headcommand {\slideentry {5}{0}{5}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {5}{0}{6}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@partpages {1}{17}}
+\headcommand {\beamer@subsectionpages {11}{17}}
+\headcommand {\beamer@sectionpages {11}{17}}
+\headcommand {\beamer@documentpages {17}}
+\headcommand {\gdef \inserttotalframenumber {13}}
+\headcommand {\slideentry {5}{0}{7}{17/17}{}{0}}
+\headcommand {\beamer@framepages {17}{17}}
