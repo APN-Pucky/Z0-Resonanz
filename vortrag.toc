@@ -5,8 +5,8 @@
 \beamer@sectionintoc {3}{Theorie}{8}{0}{2}
 \beamer@subsectionintoc {3}{1}{Einordnung im Standardmodell der Elementarteilchen}{9}{0}{2}
 \beamer@subsectionintoc {3}{2}{Elektroschwache Vereinheitlichung}{10}{0}{2}
-\beamer@subsectionintoc {3}{3}{Zerfallsbreite}{10}{0}{2}
-\beamer@sectionintoc {4}{Experimentelle Untersuchung}{10}{0}{3}
-\beamer@subsectionintoc {4}{1}{Erzeugung}{11}{0}{3}
-\beamer@subsectionintoc {4}{2}{LEP am CERN}{11}{0}{3}
-\beamer@sectionintoc {5}{Zusammenfassung}{11}{0}{4}
+\beamer@subsectionintoc {3}{3}{Zerfallsbreite}{25}{0}{2}
+\beamer@sectionintoc {4}{Experimentelle Untersuchung}{25}{0}{3}
+\beamer@subsectionintoc {4}{1}{Erzeugung}{26}{0}{3}
+\beamer@subsectionintoc {4}{2}{LEP am CERN}{26}{0}{3}
+\beamer@sectionintoc {5}{Zusammenfassung}{26}{0}{4}

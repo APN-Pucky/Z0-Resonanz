@@ -50,7 +50,7 @@ range=bfup/{greek,Greek,latin,Latin,num}]
 range=bfit/{greek,Greek,latin,Latin,num}]
 % Symbole (leider enthält Meta Office Pro nicht das Symbol ∓)
 
-\setmathfont{MetaOffcPro-Norm.ttf}[Path=fonts/]
+%\setmathfont{MetaOffcPro-Norm.ttf}[Path=fonts/]
 
 
 % Spracheinstellung
@@ -132,7 +132,14 @@ range=bfit/{greek,Greek,latin,Latin,num}]
 \newcommand*{\currentname}{\@currentlabelname}
 \makeatother
 
-\newenvironment{iframe}{\begin{frame}	
+\newenvironment{iframe}{
+	\begin{frame}
+	\frametitle{\subsecname}	
+	%\framesubtitle{\subsecname}
+}{\end{frame}}
+
+\newenvironment{nframe}{
+	\begin{frame}[noframenumbering]
 	\frametitle{\subsecname}	
 	%\framesubtitle{\subsecname}
 }{\end{frame}}
@@ -274,7 +281,16 @@ range=bfit/{greek,Greek,latin,Latin,num}]
 \usepackage{caption}
 \captionsetup{font=scriptsize,labelfont=scriptsize}
 
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+    \newcommand{\bra}[1]{\ensuremath{\left\langle#1\right|}}
+\newcommand{\ket}[1]{\ensuremath{\left|#1\right\rangle}}
+\newcommand{\bracket}[2]{\ensuremath{\left\langle #1 \middle| #2 \right\rangle}}
+\newcommand{\matrixel}[3]{\ensuremath{\left\langle #1 \middle| #2 \middle| #3 \right\rangle}}
+
+\usepackage[absolute,overlay]{textpos}
 
 \usepackage{pgfpages}
-\setbeameroption{show only notes}
-%\setbeameroption{show notes on second screen}
+%\setbeameroption{show only notes}
+\setbeameroption{show notes on second screen}
