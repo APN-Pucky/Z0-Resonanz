@@ -1,2 +1,41 @@
 \subsection{Erzeugung}
+\begin{iframe}
+	\begin{columns}
+		\begin{column}{0.48\textwidth}
+				\begin{figure}
+				\feynmandiagram [large,horizontal=a to b] {
+					i1 -- [fermion,edge label=\(e^-\)] a -- [fermion,edge label=\(e^+\)] i2,
+					a -- [boson,edge label=\(\gamma\)] b,
+					f1 -- [fermion,edge label'=\(\overline f\)] b -- [fermion,edge label'=\(f\)] f2,
+				};
+				\caption*{$e^+e^$-Vernichtung über $\gamma$ \cite{perkins}}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.48\textwidth}
+			\begin{figure}
+				\feynmandiagram [large,horizontal=a to b] {
+					i1 -- [fermion,edge label=\(e^-\)] a -- [fermion,edge label=\(e^+\)] i2,
+					a -- [boson,edge label=\(Z^0\)] b,
+					f1 -- [fermion,edge label'=\(\overline f\)] b -- [fermion,edge label'=\(f\)] f2,
+				};
+			\caption*{$e^+e^$-Vernichtung über $Z^0$ \cite{perkins}}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{iframe}
+\note[itemize] {
+	\item feynman diagram %TODO
+	\item bei passender Energie dominiert $Z^0$ %TODO
+}
+\begin{iframe}
+	\begin{itemize}
+		\item Schwerpunktsenergie $\sqrt{s} = 2E_e \geq M_\text{Z}c^2 \approx \SI{91.6}{GeV}$ 
+		\pause
+		\item $e^+ + e^- \rightarrow W^+ + W^-$ benötigt $\sqrt{s} \geq 2M_\text{W}c^2 \approx \SI{160.8}{GeV}$
+	\end{itemize}
+\note[item]{ 1989 am Stanford Linear Collider}
+\note[item]{ 1996 am LEP}
+\end{iframe}
+
+
 \subsection{LEP am CERN}
