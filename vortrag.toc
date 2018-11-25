@@ -10,5 +10,5 @@
 \beamer@subsectionintoc {4}{1}{Erzeugung}{27}{0}{3}
 \beamer@subsectionintoc {4}{2}{Nachweis}{31}{0}{3}
 \beamer@subsectionintoc {4}{3}{Eigenschaften}{32}{0}{3}
-\beamer@subsectionintoc {4}{4}{LEP am CERN}{34}{0}{3}
-\beamer@sectionintoc {5}{Zusammenfassung}{34}{0}{4}
+\beamer@subsectionintoc {4}{4}{Neutrinogenerationen}{34}{0}{3}
+\beamer@sectionintoc {5}{Zusammenfassung}{42}{0}{4}

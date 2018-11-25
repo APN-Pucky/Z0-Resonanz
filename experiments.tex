@@ -4,7 +4,7 @@
 	\begin{columns}
 		\begin{column}{0.48\textwidth}
 			\begin{figure}
-				\feynmandiagram [large,horizontal=a to b] {
+				\feynmandiagram[large,horizontal=a to b] {
 					i1 -- [fermion,edge label=\(e^-\)] a -- [fermion,edge label=\(e^+\)] i2,
 					a -- [boson,edge label=\(\gamma\)] b,
 					f1 -- [fermion,edge label'=\(\overline f\)] b -- [fermion,edge label'=\(f\)] f2,
@@ -14,7 +14,7 @@
 		\end{column}
 		\begin{column}{0.48\textwidth}
 			\begin{figure}
-				\feynmandiagram [large,horizontal=a to b] {
+				\feynmandiagram[large,horizontal=a to b] {
 					i1 -- [fermion,edge label=\(e^-\)] a -- [fermion,edge label=\(e^+\)] i2,
 					a -- [boson,edge label=\(Z^0\)] b,
 					f1 -- [fermion,edge label'=\(\overline f\)] b -- [fermion,edge label'=\(f\)] f2,
@@ -34,7 +34,7 @@
 
 \begin{iframe}
 	\begin{itemize}
-		\item Schwerpunktsenergie $\sqrt{s} = 2E_e \geq M_\text{Z}c^2 \approx \SI{91.6}{GeV}$ 
+		\item Schwerpunktsenergie $\sqrt{s} = 2E_e \geq M_\text{Z}c^2 \approx \SI{91.6}{GeV}$
 		\pause
 		\item $pp$-Kollision: $u + \overline{u} \rightarrow Z^0 $ benötigt $\sqrt{s} \gtrapprox \SI{600}{GeV}$ pro Proton
 		\pause
@@ -86,4 +86,68 @@
 %\note[item]{$Z^0$ nicht nur ungeladenes $W$-Boson, da }
 \end{iframe}
 
+\subsection{Neutrinogenerationen}
+
+\begin{iframe}
+	\framesubtitle{Wirkungsquerschnitt}
+	\begin{columns}
+		\begin{column}{0.48\textwidth}
+			\begin{equation*}
+				\sigma_f = \sigma_0 \cdot \frac{s\Gamma_Z^2}{(s-M_Z^2)^2 + M_Z^2\Gamma_Z^2}
+			\end{equation*}
+			mit
+			\begin{equation*}
+				\sigma_0 = \frac{12\pi}{M_Z^2}\cdot\frac{\Gamma_{i=e}\Gamma_f}{\Gamma_Z^2}
+			\end{equation*}
+		\end{column}
+		\begin{column}{0.48\textwidth}
+		\end{column}
+	\end {columns}
+	\begin{textblock*}{5cm}(7cm,3cm) % {block width} (coords)
+				\begin{figure}
+				\feynmandiagram[large,horizontal=a to b] {
+					i1 -- [fermion,edge label=\(e^-\)] a -- [fermion,edge label=\(e^+\)] i2,
+					a -- [boson,edge label=\(Z^0\)] b,
+					f1 -- [fermion,edge label'=\(\overline f\)] b -- [fermion,edge label'=\(f\)] f2,
+				};
+			\end{figure}
+		\end{textblock*}
+\note[item]{Formel für $\sigma$ Breit-Wigner}
+\note[item]{Abhängig von ...}
+\note[item]{$\gamma$ unterdrückt}
+\end{iframe}
+
+\begin{iframe}
+	\framesubtitle{Zerfallsbreite}
+	\begin{align*}
+		\action<+->{\Gamma_Z&=\sum_f \Gamma_{Z \rightarrow f\bar{f}}\\}
+		\action<+->{&= \Gamma_\text{Had}  + \Gamma_\text{Lep}+ \Gamma_\nu\\}
+		\action<+->{&= N_C \cdot2\cdot\Gamma_u + N_C\cdot 3\cdot \Gamma_d + 3\cdot\Gamma_e + 3\cdot\Gamma_\nu\\}
+		\action<+->{&= 3 \cdot 2\cdot\SI{94.9}{MeV} + 3\cdot3\cdot \SI{122.4}{MeV}+ 3\cdot \SI{83.3}{MeV} + 3\cdot \SI{165.8}{MeV} \\} %TODO fix SI font
+		\action<+->{&=\SI{2.42}{GeV}\\}
+		\action<+->{&\xrightarrow[\text{korrektur}]{\text{Strahlungs-}}\SI{2.497}{GeV}\\}
+	\end{align*}
+\note[item]{$\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)$}
+\note[item]{$G_F$ Fermikonstante}
+\note[item]{$Q_f$ Ladung des Fermions}
+\note[item]{ Lep: $e^\pm$, $\mu^\pm$, $\tau^\pm$}
+\note[item]{ Had: u,c= 2/3; d,s,b=-1/3}
+\note[item]{ Neutrinos}
+\note[item]{kein top-Quark weil nicht genug Energie ($\approx \SI{175}{ GeV}$)}
+\note[item]{Korrekturen aus QFT, höherer Ordungen, Strahlungskorrektur}
+\note[item]{Passt mit Unsicherheiten zu Exp. (nicht auf Folie)}
+\note[item]{$\Gamma_e/\Gamma_{tot}=3,37\%$ passt auch zu Exp.}
+\end{iframe}
+
+\begin{iframe}
+	\begin{figure}
+		\includegraphics[width=5.5cm]{img/neutrinogen}
+		\caption*{Wirkungsquerschnitt $e^+e^-\rightarrow $Hadronen \cite{povh}}
+	\end{figure}
+	\note[item]{Cern Experiment}
+	\note[item]{Schwerpunkt energie gegen Wirkungsquerschnitt}
+	\note[item]{Ähnlich der breit wigner funktion aber nicht passend symmetrisch durch Korrekturen höherer Ordnung}
+	\note[item]{Verschiedene Anzahl-Neutrinogenerationen-Kurven}
+	\note[item]{3 Neutrinogenerationen \rightarrow 3 Leptonen 3 Quarks Generationen}
+\end{iframe}
 %TODO Neutrino generationen

@@ -42,6 +42,7 @@
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{chapter}{12}
       \field{title}{Teilchen und Kerne}
       \field{year}{2014}
     \endentry
@@ -60,6 +61,32 @@
       \verb{url}
       \verb https://de.wikipedia.org/wiki/Betastrahlung
       \endverb
+    \endentry
+    \entry{perkins}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0cfcb6caed22a238fbb598895dbdb2af}{%
+           family={Perkins},
+           familyi={P\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod},
+           prefix={h.},
+           prefixi={h\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{0cfcb6caed22a238fbb598895dbdb2af}
+      \strng{fullhash}{0cfcb6caed22a238fbb598895dbdb2af}
+      \strng{bibnamehash}{0cfcb6caed22a238fbb598895dbdb2af}
+      \strng{authorbibnamehash}{0cfcb6caed22a238fbb598895dbdb2af}
+      \strng{authornamehash}{0cfcb6caed22a238fbb598895dbdb2af}
+      \strng{authorfullhash}{0cfcb6caed22a238fbb598895dbdb2af}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to High Energy Physics}
+      \field{year}{2000}
     \endentry
     \entry{GSW}{online}{}
       \field{sortinit}{S}
@@ -81,7 +108,7 @@
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labeltitlesource}{title}
-      \field{title}{Standardmodel}
+      \field{title}{Standardmodell}
       \field{urlday}{12}
       \field{urlmonth}{11}
       \field{urlyear}{2018}
