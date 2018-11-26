@@ -1,0 +1,15 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'vortrag.blg'
+[40] biber-MSWIN32:313> INFO - === 
+[68] Biber.pm:371> INFO - Reading 'vortrag.bcf'
+[147] Biber.pm:857> INFO - Found 6 citekeys in bib section 0
+[160] Biber.pm:3976> INFO - Processing section 0
+[171] Biber.pm:4136> INFO - Looking for bibtex format file 'z0resonanz_ref.bib' for section 0
+[174] bibtex.pm:1500> INFO - LaTeX decoding ...
+[183] bibtex.pm:1316> INFO - Found BibTeX data source 'z0resonanz_ref.bib'
+[265] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[265] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[277] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[277] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[288] bbl.pm:617> INFO - Writing 'vortrag.bbl' with encoding 'UTF-8'
+[293] bbl.pm:720> INFO - Output to vortrag.bbl
