@@ -18,48 +18,21 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{povh}{book}{}
-      \name{author}{1}{}{%
-        {{hash=6df1bf81dedb044d2fef140092635e3f}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           given={Povh},
-           giveni={P\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer Spektrum}%
-      }
-      \strng{namehash}{6df1bf81dedb044d2fef140092635e3f}
-      \strng{fullhash}{6df1bf81dedb044d2fef140092635e3f}
-      \strng{bibnamehash}{6df1bf81dedb044d2fef140092635e3f}
-      \strng{authorbibnamehash}{6df1bf81dedb044d2fef140092635e3f}
-      \strng{authornamehash}{6df1bf81dedb044d2fef140092635e3f}
-      \strng{authorfullhash}{6df1bf81dedb044d2fef140092635e3f}
-      \field{sortinit}{a}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{labelnamesource}{author}
+  \datalist[entry]{none/global//global/global}
+    \entry{GSW}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
-      \field{chapter}{12}
-      \field{title}{Teilchen und Kerne}
-      \field{year}{2014}
-    \endentry
-    \entry{beta}{online}{}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labeltitlesource}{title}
-      \field{title}{Beta-Decay}
+      \field{title}{Sheldon Glashow, Abdus Salam and Steven Weinberg}
       \field{urlday}{12}
       \field{urlmonth}{11}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Betastrahlung
+      \verb http://thescientificodyssey.libsyn.com/episode-225-putting-the-puzzle-together
       \endverb
       \verb{url}
-      \verb https://de.wikipedia.org/wiki/Betastrahlung
+      \verb http://thescientificodyssey.libsyn.com/episode-225-putting-the-puzzle-together
       \endverb
     \endentry
     \entry{HASERT1973121}{article}{}
@@ -326,8 +299,8 @@
       \strng{authorbibnamehash}{6fd8d2b57efb83d4fbf4ab92b49ea428}
       \strng{authornamehash}{6fd8d2b57efb83d4fbf4ab92b49ea428}
       \strng{authorfullhash}{43961b7212d85c997ac05cbb432a0792}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0370-2693}
@@ -348,6 +321,65 @@
       \verb http://www.sciencedirect.com/science/article/pii/0370269373904942
       \endverb
     \endentry
+    \entry{standardmodel}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labeltitlesource}{title}
+      \field{title}{Standardmodell}
+      \field{urlday}{12}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Standardmodell
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Standardmodell
+      \endverb
+    \endentry
+    \entry{povh}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6df1bf81dedb044d2fef140092635e3f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Povh},
+           giveni={P\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Spektrum}%
+      }
+      \strng{namehash}{6df1bf81dedb044d2fef140092635e3f}
+      \strng{fullhash}{6df1bf81dedb044d2fef140092635e3f}
+      \strng{bibnamehash}{6df1bf81dedb044d2fef140092635e3f}
+      \strng{authorbibnamehash}{6df1bf81dedb044d2fef140092635e3f}
+      \strng{authornamehash}{6df1bf81dedb044d2fef140092635e3f}
+      \strng{authorfullhash}{6df1bf81dedb044d2fef140092635e3f}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{12}
+      \field{title}{Teilchen und Kerne}
+      \field{year}{2014}
+    \endentry
+    \entry{beta}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{Beta-Decay}
+      \field{urlday}{12}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Betastrahlung
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Betastrahlung
+      \endverb
+    \endentry
     \entry{perkins}{book}{}
       \name{author}{1}{}{%
         {{hash=d501d4c7659457ca20b6ebce858155a5}{%
@@ -365,44 +397,12 @@
       \strng{authorbibnamehash}{d501d4c7659457ca20b6ebce858155a5}
       \strng{authornamehash}{d501d4c7659457ca20b6ebce858155a5}
       \strng{authorfullhash}{d501d4c7659457ca20b6ebce858155a5}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introduction to High Energy Physics}
       \field{year}{2000}
-    \endentry
-    \entry{GSW}{online}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labeltitlesource}{title}
-      \field{title}{Sheldon Glashow, Abdus Salam and Steven Weinberg}
-      \field{urlday}{12}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://thescientificodyssey.libsyn.com/episode-225-putting-the-puzzle-together
-      \endverb
-      \verb{url}
-      \verb http://thescientificodyssey.libsyn.com/episode-225-putting-the-puzzle-together
-      \endverb
-    \endentry
-    \entry{standardmodel}{online}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labeltitlesource}{title}
-      \field{title}{Standardmodell}
-      \field{urlday}{12}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Standardmodell
-      \endverb
-      \verb{url}
-      \verb https://de.wikipedia.org/wiki/Standardmodell
-      \endverb
     \endentry
   \enddatalist
 \endrefsection
