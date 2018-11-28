@@ -404,6 +404,22 @@
       \field{title}{Introduction to High Energy Physics}
       \field{year}{2000}
     \endentry
+    \entry{huz0}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch Z0-Resonanz}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.physik.hu-berlin.de/de/eephys/teaching/lab/z0resonance/index_html
+      \endverb
+      \verb{url}
+      \verb https://www.physik.hu-berlin.de/de/eephys/teaching/lab/z0resonance/index_html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

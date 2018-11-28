@@ -5,10 +5,10 @@
 \beamer@sectionintoc {3}{Theorie}{9}{0}{2}
 \beamer@subsectionintoc {3}{1}{Einordnung im Standardmodell der Elementarteilchen}{10}{0}{2}
 \beamer@subsectionintoc {3}{2}{Elektroschwache Vereinheitlichung}{11}{0}{2}
-\beamer@subsectionintoc {3}{3}{Zerfallsbreite}{27}{0}{2}
 \beamer@sectionintoc {4}{Experimentelle Untersuchung}{27}{0}{3}
 \beamer@subsectionintoc {4}{1}{Erzeugung}{28}{0}{3}
 \beamer@subsectionintoc {4}{2}{Nachweis}{32}{0}{3}
-\beamer@subsectionintoc {4}{3}{Eigenschaften}{33}{0}{3}
-\beamer@subsectionintoc {4}{4}{Neutrinogenerationen}{35}{0}{3}
-\beamer@sectionintoc {5}{Zusammenfassung}{43}{0}{4}
+\beamer@subsectionintoc {4}{3}{Eigenschaften}{34}{0}{3}
+\beamer@subsectionintoc {4}{4}{Neutrinogenerationen}{36}{0}{3}
+\beamer@sectionintoc {5}{Zusammenfassung}{44}{0}{4}
+\beamer@subsectionintoc {5}{1}{Zusammenfassung}{45}{0}{4}
