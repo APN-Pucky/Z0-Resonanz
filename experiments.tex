@@ -48,7 +48,38 @@
 	\note[item]{ 1996 am LEP, 50 $\rightarrow$ 86 $\rightarrow$  \SI{104.6}{GeV}}
 \end{iframe}
 
+\begin{iframe}
+	\framesubtitle{Luminosität}
+	\begin{equation*}
+		\dot{N}_f = \sigma_f \mathcal{L}
+	\end{equation*}
+	\begin{figure}
+		\includegraphics[height=3.5cm]{img/bhabha}
+		\caption*{Bhabha Streuung \cite{huz0}}
+	\end{figure}
+	\note[item]{Luminosität hängt von Beschleuniger ab}
+	\note[item]{sigma ist gesucht}
+	\note[item]{N sind Anzahl Teilchen be REaktion}
+	\note[item]{eig. noch Fehler korrektur mit Akzeptanzraten und Effizienzen}
+	\note[item]{Wirkungsquerschnitt für Bhabha-Streuung ee -> ee reine QED ziemlich genau bekannt (Kamera am detektor?)}
+\end{iframe}
+
+
+\begin{iframe}
+\framesubtitle{Einfluss durch Gezeiten}
+\begin{figure}
+		\includegraphics<1>[height=5cm]{img/gezeit}
+		\includegraphics<2>[height=5cm]{img/tide}
+		\only<1>{\caption*{LEP Ausdehunung\cite{cern}}}
+		\only<2>{\caption*{Relative Strahlenergieänderung\cite{huz0}}}
+	\end{figure}
+	\note[item]{weiter Effekt}
+	\note[item]{Energie schwankt im Tages verlauf}
+	\note[item]{REsonante depolarisation} %TODO
+	\note[item]{Größe primär relevant für Energie (+Synchrotron strahlung)}
+\end{iframe}
 \subsection{Nachweis}
+%TODO Detektor aufbau
 \begin{iframe}
 	\framesubtitle{1983 am CERN}
 	\begin{figure}
@@ -66,6 +97,7 @@
 	\item ?Woher sicher, dass $Z^0$ Zerfall?
 }
 
+%TODO andere GRaphiken für Jet+ee
 \begin{iframe}
 	\framesubtitle{1993 am LEP/CERN}
 	\begin{figure}
@@ -75,6 +107,7 @@
 \end{iframe}
 
 \note[itemize] {
+	\item L3 detector LEP
 	\item Beispiel Muon
 	\item Winkel 180° => entgegen gesetzte Richtungen
 	\item ?Woher sicher, dass $Z^0$ Zerfall?
@@ -114,11 +147,7 @@
 	\begin{columns}
 		\begin{column}{0.48\textwidth}
 			\begin{equation*}
-				\sigma_f = \sigma_0 \cdot \frac{s\Gamma_Z^2}{(s-M_Z^2)^2 + M_Z^2\Gamma_Z^2}
-			\end{equation*}
-			mit
-			\begin{equation*}
-				\sigma_0 = \frac{12\pi}{M_Z^2}\cdot\frac{\Gamma_{i=e}\Gamma_f}{\Gamma_Z^2}
+				\sigma_f =  \frac{12 \pi \cdot \Gamma_f\cdot \Gamma_e}{(s-M_Z^2)^2 + M_Z^2\Gamma_Z^2}
 			\end{equation*}
 		\end{column}
 		\begin{column}{0.48\textwidth}
@@ -134,6 +163,7 @@
 			\end{figure}
 		\end{textblock*}
 \note[item]{Formel für $\sigma$ Breit-Wigner}
+\note[item]{Einheiten $h$ und $c$ multiplizieren}
 \note[item]{Abhängig von ...}
 \note[item]{$\gamma$ unterdrückt}
 \end{iframe}

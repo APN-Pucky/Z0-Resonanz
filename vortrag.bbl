@@ -405,8 +405,8 @@
       \field{year}{2000}
     \endentry
     \entry{huz0}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labeltitlesource}{title}
       \field{title}{Versuch Z0-Resonanz}
       \field{urlday}{25}
@@ -418,6 +418,22 @@
       \endverb
       \verb{url}
       \verb https://www.physik.hu-berlin.de/de/eephys/teaching/lab/z0resonance/index_html
+      \endverb
+    \endentry
+    \entry{cern}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{title}{How is the beam energy calibrated through the resonant spin depolarization?}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://tlep.web.cern.ch/content/how-beam-energy-calibrated-through-resonant-spin-depolarization
+      \endverb
+      \verb{url}
+      \verb http://tlep.web.cern.ch/content/how-beam-energy-calibrated-through-resonant-spin-depolarization
       \endverb
     \endentry
   \enddatalist
