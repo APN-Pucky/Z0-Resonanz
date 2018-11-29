@@ -8,7 +8,7 @@
 \beamer@sectionintoc {4}{Experimentelle Untersuchung}{27}{0}{3}
 \beamer@subsectionintoc {4}{1}{Erzeugung}{28}{0}{3}
 \beamer@subsectionintoc {4}{2}{Nachweis}{35}{0}{3}
-\beamer@subsectionintoc {4}{3}{Eigenschaften}{37}{0}{3}
-\beamer@subsectionintoc {4}{4}{Neutrinogenerationen}{39}{0}{3}
-\beamer@sectionintoc {5}{Zusammenfassung}{47}{0}{4}
-\beamer@subsectionintoc {5}{1}{Zusammenfassung}{48}{0}{4}
+\beamer@subsectionintoc {4}{3}{Eigenschaften}{41}{0}{3}
+\beamer@subsectionintoc {4}{4}{Neutrinogenerationen}{43}{0}{3}
+\beamer@sectionintoc {5}{Zusammenfassung}{51}{0}{4}
+\beamer@subsectionintoc {5}{1}{Zusammenfassung}{52}{0}{4}
