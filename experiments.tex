@@ -1,6 +1,7 @@
 \subsection{Erzeugung}
-
+ %TODO split in 2 notes
 \begin{iframe}
+	\framesubtitle{Feynman-Diagramme}
 	\begin{columns}
 		\begin{column}{0.48\textwidth}
 			\begin{figure}
@@ -37,17 +38,31 @@
 
 \begin{iframe}
 	\begin{itemize}
-		\item Schwerpunktsenergie $\sqrt{s} = 2E_e \geq M_\text{Z}c^2 \approx \SI{91.6}{GeV}$
+		\item $e^-  + e^- \rightarrow Z^0$: Schwerpunktsenergie $\sqrt{s} = 2E_e \geq M_\text{Z}c^2 \approx \SI{91.6}{GeV}$
 		\pause
-		\item $pp$-Kollision: $u + \overline{u} \rightarrow Z^0 $ benötigt $\sqrt{s} \gtrapprox \SI{600}{GeV}$ pro Proton
+		\item  $u + \overline{u} \rightarrow Z^0 $: $pp$-Kollision benötigt $\sqrt{s} \gtrapprox \SI{600}{GeV}$ pro Proton
 		\pause
-		\item $e^+ + e^- \rightarrow W^+ + W^-$ benötigt $\sqrt{s} \geq 2M_\text{W}c^2 \approx \SI{160.8}{GeV}$
+		\item $u  + \overline{u} \rightarrow Z^0 $: $p\overline{p}$-Kollision benötigt $\sqrt{s}\gtrapprox \SI{300}{GeV}$
+		\pause
+		\item $e^+ + e^- \rightarrow W^+ + W^-$: benötigt $\sqrt{s} \geq 2M_\text{W}c^2 \approx \SI{160.8}{GeV}$
 	\end{itemize}
+	\only<1> {
 	\note[item]{ 1989 am Stanford Linear Collider und LEP}
+	}
+	\only<2> {
 	\note[item]{Energie muss in Quarks enthalten sein $\rightarrow$ sehr viel mehr Energie auf Protonen (analog mit d) => e-e+ Kollision einfacher}
+	}
+	\only<3> {
+	\note[item] { Besser Proton-Antiproton, da weniger Enrgie notwendig.}
+	\note[item]{ in Beschleuniger inverse Rotation}
+	}
+	\only<4>{
+	\note[item]{Tritt nicht auf bei Energien $\approx \SI{100}{GeV}$}
 	\note[item]{ 1996 am LEP, 50 $\rightarrow$ 86 $\rightarrow$  \SI{104.6}{GeV}}
+	}
 \end{iframe}
 
+\iffalse
 \begin{iframe}
 	\framesubtitle{Luminosität}
 	\begin{equation*}
@@ -64,24 +79,32 @@
 	\note[item]{eig. noch Fehler korrektur mit Akzeptanzraten und Effizienzen}
 	\note[item]{Wirkungsquerschnitt für Bhabha-Streuung ee -> ee reine QED ziemlich genau bekannt (Kamera am detektor?)}
 \end{iframe}
+\fi
 
 
 \begin{iframe}
-\framesubtitle{Einfluss durch Gezeiten}
+\framesubtitle{Einfluss auf Beschleuniger durch Gezeiten}
 \begin{figure}
 		\includegraphics<1>[height=5cm]{img/gezeit}
 		\includegraphics<2>[height=5cm]{img/tide}
-		\only<1>{\caption*{LEP Ausdehunung\cite{cern}}}
+		\only<1>{\caption*{LEP Ausdehnung\cite{cern}}}
 		\only<2>{\caption*{Relative Strahlenergieänderung\cite{huz0}}}
 	\end{figure}
-	\note[item]{weiter Effekt}
-	\note[item]{Energie schwankt im Tages verlauf}
-	\note[item]{Resonante depolarisation} %TODO
+	\only<1> {
+	\note[item]{weiter relevanter Effekt}
+	\note[item]{Energie schwankt im Tagesverlauf}
+	\note[item]{Güne Linie ist grob Erdrotation}
+	}
+	\only<2> {
+	\note[item]{Resonante depolarisation genaue Enrgiemessung (notwendig)} %TODO Folie?
+	\note[item]{Über Verhalten des Spins der beschleunigten Elektronen}
 	\note[item]{Größe primär relevant für Energie (+Synchrotron strahlung)}
+	}
 \end{iframe}
+
 \subsection{Nachweis}
 \begin{iframe}
-	\framesubtitle{Detektor}
+	\framesubtitle{L3 Detektoraufbau am LEP}
 \begin{figure}
 		\includegraphics<1>[height=5cm]{img/skizze}
 		\includegraphics<2>[height=5cm]{img/detektor}
@@ -92,38 +115,52 @@
 \end{iframe}
 %TODO Detektor aufbau
 \begin{iframe}
-	\framesubtitle{1983 am CERN}
+	\framesubtitle{Entdeckung des $Z^0$ Bosons (1983 am CERN)}
 	\begin{figure}
 		\includegraphics[width=6cm]{img/lego}
-		\caption*{$q+\overline{q} \rightarrow Z^0 \rightarrow e^+ + e^-$ \cite{povh}}
+		\caption*{"Lego-Diagramm" $q+\overline{q} \rightarrow Z^0 \rightarrow e^+ + e^-$ \cite{povh}}
 	\end{figure}
 \end{iframe}
 
 \note[itemize] {
+	\item nicht L3, aber analog
 	\item Plane unten sind Kaloriemeterzellen
 	\item Energie Summe $=$ Masse $Z^0$
 	\item Beispiel Event einer Messung
 	\item Winkel 180° => entgegen gesetzte Richtungen
 
-	\item ?Woher sicher, dass $Z^0$ Zerfall?
+	%\item ?Woher sicher, dass $Z^0$ Zerfall? %TODO
 }
 
 %TODO andere GRaphiken für Jet+ee
+\subsection{Präzessionsmessungen}
 \begin{iframe}
-	\framesubtitle{1993 am LEP/CERN}
+	\framesubtitle{L3 Detektor (1993 am LEP)}
 	\begin{figure}
 		\includegraphics<1>[height=5cm]{img/hadron}
 		\includegraphics<2>[height=5cm]{img/elektron}
 		\includegraphics<3>[height=5cm]{img/muon}
-		\only<1>{\caption*{$e^- +e^- \rightarrow Z^0 \rightarrow$ hadronische Jets \cite{huz0}}}
-		\only<2>{\caption*{$e^- +e^- \rightarrow Z^0 \rightarrow e^+ + e^-$ \cite{huz0}}}
-		\only<3>{\caption*{$e^- +e^- \rightarrow Z^0 \rightarrow \mu^+ + \mu^-$ \cite{huz0}}}
+		\only<1>{\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow$ hadronische Jets \cite{huz0}}}
+		\only<2>{\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow e^+ + e^-$ \cite{huz0}}}
+		\only<3>{\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow \mu^+ + \mu^-$ \cite{huz0}}}
 	\end{figure}
-	\note[item]{Balken sind die Energien die Kaloriemeter messen}
+	\only<1> {
 	\note[item]{ L3 detector LEP}
-	\note[item]{ Beispiel Muon}
+	\note[item]{beispielhafte Ereignisse}
+	\note[item]{entlang der Strahlachse}
+	\note[item]{Balken sind die Energien die Kaloriemeter messen}
+	\note[item]{ Hadronische Jets}
+	}
+	\only<2> {
+	\note[item]{ herausgezoomt, weil Enrgie weniger verteilt}
+	\note[item]{ analog zu Lego}
 	\note[item]{ Winkel 180° => entgegen gesetzte Richtungen}
-	\note[item]{?Woher sicher, dass $Z^0$ Zerfall?}
+	%\note[item]{?Woher sicher, dass $Z^0$ Zerfall?} %TODO
+	%\note[item]{?Wie tauon detektieren?} %TODO
+	}
+	\only<3> {
+		\note[item]{Muon erst an äußeren Platten detektiert}
+	}
 \end{iframe}
 
 \subsection{Eigenschaften}
@@ -138,22 +175,26 @@
 		\pause
 		\item Zerfall:
 		\begin{align*}
-			Z^0 \rightarrow & e^+ + e^- & \SI{3.363+-0.004}{\%} \\
-			& \mu^+ + \mu^- & \SI{3.366+-0.007}{\%} \\
-			& \tau^+ + \tau^- & \SI{3.370+-0.008}{\%} \\
-			& \nu_{e,\mu,\tau}^+ + \overline{\nu}_{e,\mu,\tau} & \SI{20+-0.06}{\%} \\
-			& \text{Hadronen} & \SI{69.91+-0.06}{\%} \\
+			Z^0 \rightarrow & e^- + e^+ & \SI{3.363+-0.004}{\%} \\
+			& \mu^- + \mu^+ & \SI{3.366+-0.007}{\%} \\
+			& \tau^- + \tau^+ & \SI{3.370+-0.008}{\%} \\
+			& \nu_{e,\mu,\tau} + \overline{\nu}_{e,\mu,\tau} & \SI{20+-0.06}{\%} \\
+			& \text{Hadronen} & \SI{69.91+-0.06}{\%} \\ %TODO Align
 		\end{align*}
 	\end{itemize}
-\note[item]{Über Wirkungsquerschnitt? src [PD12]}
-\note[item]{}
-\note[item]{Hadronen (idR. Anti+Quark) nicht unterscheidbar}
-\note[item]{Anti+Neutrino schwer detektierbar => \% über $\Gamma_\text{tot}$}
-\note[item]{totale Breite = alle Zerfälle Anti+Fermion???}
+	\only<1> {
+		\note[item]{Über Wirkungsquerschnitt? src [PD12]}
+		\note[item]{Breite + Mittelwert} %TODO
+	}
+	\only<2> {
+		\note[item]{Hadronen (idR. Anti+Quark) nicht unterscheidbar}
+		\note[item]{Anti+Neutrino schwer detektierbar => \% über $\Gamma_\text{tot}$}
+}
+%\note[item]{totale Breite = alle Zerfälle Anti+Fermion???} %TODO
 %\note[item]{$Z^0$ nicht nur ungeladenes $W$-Boson, da }
 \end{iframe}
 
-\subsection{Neutrinogenerationen}
+\subsection{Anzahl Neutrinogenerationen}
 
 \begin{iframe}
 	\framesubtitle{Wirkungsquerschnitt}
@@ -183,24 +224,69 @@
 
 \begin{iframe}
 	\framesubtitle{Zerfallsbreite}
+	\only<3> {
+	\begin{textblock*}{5cm}(6.5cm,2.4cm) % {block width} (coords)
+	\begin{equation*}
+		\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)
+	\end{equation*}
+	\end{textblock*}
+	}
+	\only<4> {
+	\begin{textblock*}{5cm}(6.5cm,2.4cm) % {block width} (coords)
+	\begin{equation*}
+		\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)
+	\end{equation*}
+	\end{textblock*}
+	}
+	\only<5> {
+	\begin{textblock*}{5cm}(6.5cm,2.4cm) % {block width} (coords)
+	\begin{equation*}
+		\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)
+	\end{equation*}
+	\end{textblock*}
+	}
+	\only<6> {
+	\begin{textblock*}{5cm}(6.5cm,2.4cm) % {block width} (coords)
+	\begin{equation*}
+		\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)
+	\end{equation*}
+	\end{textblock*}
+	}
 	\begin{align*}
 		\action<+->{\Gamma_Z&=\sum_f \Gamma_{Z \rightarrow f\bar{f}}\\}
-		\action<+->{&= \Gamma_\text{Had}  + \Gamma_\text{Lep}+ \Gamma_\nu\\}
+		\action<+->{&= \Gamma_\text{u,c,d,s,b}  + \Gamma_\text{e,$\mu$,$\tau$}+ \Gamma_{\nu_e,\nu_\mu,\nu_\tau}\\}
 		\action<+->{&= N_C \cdot2\cdot\Gamma_u + N_C\cdot 3\cdot \Gamma_d + 3\cdot\Gamma_e + 3\cdot\Gamma_\nu\\}
-		\action<+->{&= 3 \cdot 2\cdot\SI{94.9}{MeV} + 3\cdot3\cdot \SI{122.4}{MeV}+ 3\cdot \SI{83.3}{MeV} + 3\cdot \SI{165.8}{MeV} \\} %TODO fix SI font
+		\action<+->{&= 3 \cdot 2\cdot\SI{94.9}{MeV} + 3\cdot3\cdot \SI{122.4}{MeV}+ 3\cdot \SI{83.3}{MeV} + 3\cdot \SI{165.8}{MeV} \\}
 		\action<+->{&=\SI{2.42}{GeV}\\}
 		\action<+->{&\xrightarrow[\text{korrektur}]{\text{Strahlungs-}}\SI{2.497}{GeV}\\}
 	\end{align*}
-\note[item]{$\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)$}
-\note[item]{$G_F$ Fermikonstante}
-\note[item]{$Q_f$ Ladung des Fermions}
-\note[item]{ Lep: $e^\pm$, $\mu^\pm$, $\tau^\pm$}
+	\only<1> {
+		\note[item] {Breite ergibt sich aus Partial Breiten}
+	}
+	\only<2> {
+		\note[item] { kein top-Quark, da t-Masse ($\approx \SI{175}{ GeV}$)größer als $Z^0$-Masse ist}
+	}
+	\only<3> {
+		\note[item]{$\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)$}
+		\note[item]{$G_F$ Fermikonstante}
+		\note[item]{$Q_f$ Ladung des Fermions}
+		\note[item]{Quantenmechanisch Herleitung der Formel nicht notwendig}
+		\note[item]{primär von Ladung abhängig}
+		\note[item]{ Lep: $e^\pm$, $\mu^\pm$, $\tau^\pm$}
 \note[item]{ Had: u,c= 2/3; d,s,b=-1/3}
 \note[item]{ Neutrinos}
-\note[item]{kein top-Quark weil nicht genug Energie aus $Z^0$ ($\approx \SI{175}{ GeV}$)}
-\note[item]{Korrekturen aus QFT, höherer Ordungen, Strahlungskorrektur}
-\note[item]{Passt mit Unsicherheiten zu Exp. (nicht auf Folie)}
-\note[item]{$\Gamma_e/\Gamma_{tot}=3,37\%$ passt auch zu Exp.}
+		}
+		\only<4> {
+		\note[item]{Einsetzen, vgl Maximal für minimale Ladung}
+		}
+		\only<5> {
+		\note[item] { Summe}
+		}
+		\only<6> {
+		\note[item]{Korrekturen aus QFT, höherer Ordungen, Strahlungskorrektur}
+		\note[item]{Passt mit Unsicherheiten zu Exp. (nicht auf Folie)}
+		\note[item]{$\Gamma_e/\Gamma_{tot}=3,37\%$ passt auch zu Exp.}
+		}
 \end{iframe}
 
 \begin{iframe}
@@ -209,7 +295,7 @@
 		\caption*{Wirkungsquerschnitt $e^+e^-\rightarrow $Hadronen \cite{povh}}
 	\end{figure}
 	\note[item]{Cern Experiment}
-	\note[item]{Schwerpunkt energie gegen Wirkungsquerschnitt}
+	\note[item]{Wirkungsquerschnitt gegen Schwerpunktenergie  }
 	\note[item]{Ähnlich der Breit Wigner Funktion aber nicht passend symmetrisch durch Korrekturen höherer Ordnung udn Bremstrahlung durch $e^-$}
 	\note[item]{Verschiedene Anzahl-Neutrinogenerationen-Kurven}
 	\note[item]{3 Neutrinogenerationen $\rightarrow$ 3 Leptonen 3 Quarks Generationen}
