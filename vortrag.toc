@@ -5,10 +5,10 @@
 \beamer@sectionintoc {3}{Theorie}{9}{0}{2}
 \beamer@subsectionintoc {3}{1}{Einordnung im Standardmodell der Elementarteilchen}{10}{0}{2}
 \beamer@subsectionintoc {3}{2}{Elektroschwache Vereinheitlichung}{11}{0}{2}
-\beamer@sectionintoc {4}{Experimentelle Untersuchung}{24}{0}{3}
-\beamer@subsectionintoc {4}{1}{Erzeugung}{25}{0}{3}
-\beamer@subsectionintoc {4}{2}{Nachweis}{32}{0}{3}
-\beamer@subsectionintoc {4}{3}{Präzessionsmessungen}{35}{0}{3}
-\beamer@subsectionintoc {4}{4}{Eigenschaften}{38}{0}{3}
-\beamer@subsectionintoc {4}{5}{Anzahl Neutrinogenerationen}{40}{0}{3}
-\beamer@sectionintoc {5}{Zusammenfassung}{48}{0}{4}
+\beamer@sectionintoc {4}{Experimentelle Untersuchung}{21}{0}{3}
+\beamer@subsectionintoc {4}{1}{Erzeugung}{22}{0}{3}
+\beamer@subsectionintoc {4}{2}{Nachweis}{27}{0}{3}
+\beamer@subsectionintoc {4}{3}{Präzisionsmessungen}{29}{0}{3}
+\beamer@subsectionintoc {4}{4}{Eigenschaften}{36}{0}{3}
+\beamer@subsectionintoc {4}{5}{Anzahl Neutrinogenerationen}{38}{0}{3}
+\beamer@sectionintoc {5}{Zusammenfassung}{47}{0}{4}

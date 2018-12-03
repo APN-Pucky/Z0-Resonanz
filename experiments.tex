@@ -12,8 +12,10 @@
 				};
 				\caption*{$e^+e^$-Vernichtung über $\gamma$ \cite{perkins}}
 			\end{figure}
+
 		\end{column}
 		\begin{column}{0.48\textwidth}
+
 			\begin{figure}
 				\feynmandiagram[large,horizontal=a to b] {
 					i1 -- [fermion,edge label=\(e^-\)] a -- [fermion,edge label=\(e^+\)] i2,
@@ -24,6 +26,9 @@
 			\end{figure}
 		\end{column}
 	\end{columns}
+	\begin{figure}
+		\includegraphics[height=0.25cm]{img/zeit}
+	\end{figure}
 \end{iframe}
 
 \note[itemize] {
@@ -35,30 +40,31 @@
 	\item über $\gamma $oder $Z$ zu Fermion und Antifermion paar.
 	\item bei passender Energie\ approx $M_Z$  dominiert $Z^0$, aus QFT+Feynmanregeln
 }
-
+%TODO check greater than kerne teilchen povh
 \begin{iframe}
 	\begin{itemize}
-		\item $e^-  + e^- \rightarrow Z^0$: Schwerpunktsenergie $\sqrt{s} = 2E_e \geq M_\text{Z}c^2 \approx \SI{91.6}{GeV}$
+		\item LEP
+		\begin{itemize}
+			\item $e^-  + e^+ \rightarrow Z^0$: Schwerpunktsenergie $\sqrt{s} = 2E_e \geq M_\text{Z}c^2 \approx \SI{91.6}{GeV}$
+			\item $e^+ + e^- \rightarrow W^+ + W^-$: benötigt $2E_e \geq 2M_\text{W}c^2 \approx \SI{160.8}{GeV}$
+		\end{itemize}
 		\pause
-		\item  $u + \overline{u} \rightarrow Z^0 $: $pp$-Kollision benötigt $E_p \gtrapprox \SI{600}{GeV}$
-		\pause
-		\item $u  + \overline{u} \rightarrow Z^0 $: $p\overline{p}$-Kollision benötigt $E_p \gtrapprox \SI{300}{GeV}$
-		\pause
-		\item $e^+ + e^- \rightarrow W^+ + W^-$: benötigt $2E_e \geq 2M_\text{W}c^2 \approx \SI{160.8}{GeV}$
+		\item SPS/Sp$\overline{\text{p}}$S
+		\begin{itemize}
+			\item $u + \overline{u} \rightarrow Z^0 $: $pp$-Kollision benötigt $E_p \gtrapprox \SI{600}{GeV}$
+			\item $u  + \overline{u} \rightarrow Z^0 $: $p\overline{p}$-Kollision benötigt $E_p \gtrapprox \SI{300}{GeV}$
+		\end{itemize}
 	\end{itemize}
 	\only<1> {
 	\note[item]{ 1989 am Stanford Linear Collider und LEP}
+	\note[item]{Tritt nicht auf bei Energien $\approx \SI{100}{GeV}$}
+	\note[item]{ 1996 am LEP, 50 $\rightarrow$ 86 $\rightarrow$  \SI{104.6}{GeV}}
 	}
 	\only<2> {
 	\note[item]{Energie muss in Quarks enthalten sein $\rightarrow$ sehr viel mehr Energie auf Protonen (analog mit d) => e-e+ Kollision einfacher}
-	}
-	\only<3> {
+
 	\note[item] { Besser Proton-Antiproton, da weniger Enrgie notwendig.}
 	\note[item]{ in Beschleuniger inverse Rotation}
-	}
-	\only<4>{
-	\note[item]{Tritt nicht auf bei Energien $\approx \SI{100}{GeV}$}
-	\note[item]{ 1996 am LEP, 50 $\rightarrow$ 86 $\rightarrow$  \SI{104.6}{GeV}}
 	}
 \end{iframe}
 
@@ -104,22 +110,51 @@
 
 \subsection{Nachweis}
 \begin{iframe}
-	\framesubtitle{L3 Detektoraufbau am LEP}
-\begin{figure}
-		\includegraphics<1>[height=5cm]{img/skizze}
-		\includegraphics<2>[height=5cm]{img/detektor}
-		\caption*{L3 Detektor \cite{huz0}}
-	\end{figure}
-	\note[item]{Analog Vorlesung, Hadronen Jets}
-	\note[item]{Masse/Ladung durch Felder+ Drifts mit Magnetfeld}
+\framesubtitle{durch neutrale Ströme}
+	\begin{columns}
+		\begin{column}{0.59\textwidth}
+			\begin{figure}
+				\includegraphics[width=6.7cm]{img/neutralerstrom}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.39\textwidth}
+			\begin{itemize}
+				\item Neutrinostrahl durch $\pi^+ \rightarrow \mu^+ + \overline{\nu}_\mu $
+				\item Blasenkammer: $\bar{\nu}_\mu + e^- \rightarrow \bar{\nu}_\mu + e^-$
+				\item Elektron sendet Bremsstrahlung aus
+				\item $e^-e^+$-Paarbildung $\rightarrow$ elektromagnetischer Schauer
+			\end{itemize}
+			{\small
+			 \cite{HASERT1973121}\cite{sym}}
+		\end{column}
+	\end{columns}
+
+\note[item]{Striche und Kreise sind Lamben und Spiegel Reflexionen}
+\note[item]{Myonlose Neutrinoreaktion}
+\note[item]{Neutrale Ströme von links nach rechts Antineutrinostrahl in Blasenkammer.}
+\note[item]{Neutrionstrahl durch bsplw. $\pi^+ \rightarrow \mu^+ + \overline{\nu}_\mu $ und Ladungsfilter}
+\note[item]{Photon nur bei elektr. Prozessen.(=> neutraler Strom, Z)}
+\note[item]{Vorhergesagter Winkel und 1/3 Energie des $e^-$ impliziert Wechselwirkung durch neutrale Ströme. }
+\note[item]{700000 - Bilder überprüft. Spiral/Bremsstrahlung. }
 \end{iframe}
-%TODO Detektor aufbau
+
 \begin{iframe}
-	\framesubtitle{Entdeckung des $Z^0$ Bosons (1983 am CERN)}
-	\begin{figure}
-		\includegraphics[width=6cm]{img/lego}
-		\caption*{"Lego-Diagramm" $q+\overline{q} \rightarrow Z^0 \rightarrow e^+ + e^-$ \cite{povh}}
-	\end{figure}
+	\framesubtitle{Entdeckung des $Z^0$ Bosons}
+	\begin{columns}
+		\begin{column}{0.48\textwidth}
+			\begin{figure}
+				\includegraphics[width=5cm]{img/lego}
+				\caption*{"Lego-Diagramm" $q+\overline{q} \rightarrow Z^0 \rightarrow e^+ + e^-$ \cite{povh}}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.48\textwidth}
+				\begin{itemize}
+					\item 1983 UA2 Detektor am Sp$\overline{\text{p}}$S
+					\item Masse des $Z^0$-Bosons entspricht der Summe der Energie von $e^-$ und $e^+$
+					\item Entgegengesetzte Impulse von $e^-$ und $e^+$
+				\end{itemize}
+		\end{column}
+		\end{columns}
 \end{iframe}
 
 \note[itemize] {
@@ -133,34 +168,152 @@
 }
 
 %TODO andere GRaphiken für Jet+ee
-\subsection{Präzessionsmessungen}
+\subsection{Präzisionsmessungen}
+\begin{iframe}
+	\framesubtitle{Large Electron Positron Collider (LEP, 1989-2000)}
+	\begin{figure}
+		\includegraphics[height=5cm]{img/lep}
+		\caption*{Beschleuniger am CERN 1996 \cite{lepacc}}
+	\end{figure}
+	\note[item] { LEP wurde zu LHC}
+	\note[item] { L3 wurde zu ALICE}
+	\note[item] { SppS von 1981 bis 1991 anstelle von SPS}
+	\note[item] { Erzeugung, Lineare Beschleuniger und Vorstufen }
+\end{iframe}
+
+\begin{iframe}
+	\framesubtitle{L3 Detektoraufbau am LEP}
+	\begin{columns}
+	\begin{column}{0.49\textwidth}
+\begin{figure}
+		\includegraphics[height=4.5cm]{img/skizze}
+		\caption*{L3 Detektor \cite{huz0}}
+	\end{figure}
+\end{column}
+	\begin{column}{0.49\textwidth}
+		Von Innen nach Außen:
+		\begin{enumerate}
+			\item Spurdetektor
+			\item Elektromagnetisches Kalorimeter
+			\item Hadronisches Kalorimeter
+			\item Myonkammer
+		\end{enumerate}
+\end{column}
+\end{columns}
+	%\note[item]{Analog Vorlesung, Hadronen Jets}
+	%\note[item]{Masse/Ladung durch Felder+ Drifts mit Magnetfeld}
+	\note[item]{Alles in Magnetfeld}
+	\note[item]{Spurdetektor: misst elektrische Teilchen}
+	\note[item]{Krümmung gibt Impuls und Ladung}
+	\note[item]{EM Kalorimeter: Energie von Elektron und Photon, EM Teilchen wird absorbiert}
+	\note[item]{Had Kalorimeter: Energie von Hadronen, starke WW Teilchen werden absorbiert}
+	\note[item]{Myonkammern: Für Myonen, groß, weil geringe WW}
+	\note[item]{Vortrag speziell zur Teilchendetektion}
+\end{iframe}
+
+\begin{iframe} %TODO notwendig?
+	\framesubtitle{L3 Detektoraufbau am LEP}
+	\begin{columns}
+	\begin{column}{0.49\textwidth}
+\begin{figure}
+		\includegraphics[height=4.0cm]{img/detektor}
+		\caption*{L3 Detektor \cite{huz0}}
+	\end{figure}
+\end{column}
+	\begin{column}{0.49\textwidth}
+\end{column}
+\end{columns}
+	\note[item]{Mensch für Größenverhältnis.}
+	\note[item]{Magnet im ALICE wieder verwendet.}
+\end{iframe}
+
+
+
 \begin{iframe}
 	\framesubtitle{L3 Detektor (1993 am LEP)}
+	\begin{columns}
+		\begin{column}{0.40\textwidth}
 	\begin{figure}
-		\includegraphics<1>[height=5cm]{img/hadron}
-		\includegraphics<2>[height=5cm]{img/elektron}
-		\includegraphics<3>[height=5cm]{img/muon}
-		\only<1>{\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow$ hadronische Jets \cite{huz0}}}
-		\only<2>{\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow e^+ + e^-$ \cite{huz0}}}
-		\only<3>{\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow \mu^+ + \mu^-$ \cite{huz0}}}
+		\includegraphics[height=4.70cm]{img/elektron}
+		\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow e^- + e^+$ \cite{huz0}}
 	\end{figure}
-	\only<1> {
-	\note[item]{ L3 detector LEP}
+\end{column}
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+				\item Energiemessung im elm. Kalorimeter
+				\item Entgegengesetzte Ausbreitung
+			\end{itemize}
+\end{column}
+\end{columns}
+
+\note[item]{ L3 Detektor LEP}
 	\note[item]{beispielhafte Ereignisse}
 	\note[item]{entlang der Strahlachse}
-	\note[item]{Balken sind die Energien die Kaloriemeter messen}
-	\note[item]{ Hadronische Jets, Farbladung nicht aleine vorkommend, immmer neue Quark-Antiquark-Paare}
-	}
-	\only<2> {
-	\note[item]{ herausgezoomt, weil Enrgie weniger verteilt}
 	\note[item]{ analog zu Lego}
+	\note[item]{ herausgezoomt, weil Enrgie weniger verteilt}
 	\note[item]{ Winkel 180° => entgegen gesetzte Richtungen}
+	\note[item]{Balken sind die Energien die Kaloriemeter messen}
 	%\note[item]{?Woher sicher, dass $Z^0$ Zerfall?} %TODO
 	%\note[item]{?Wie tauon detektieren?} %TODO
-	}
-	\only<3> {
+\end{iframe}
+
+\begin{iframe}
+	\framesubtitle{L3 Detektor (1993 am LEP)}
+
+\begin{columns}
+		\begin{column}{0.40\textwidth}
+	\begin{figure}
+		\includegraphics[height=4.70cm]{img/hadron}
+		\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow$ hadronische Jets \cite{huz0}}
+	\end{figure}
+\end{column}
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+				\item Einzelnes Quark führt zu Quark-Antiquark-Paar Erzeugung, um isolierte Farbladung zu verhindern (Confinement)
+				\item Reaktion äußert sich in hadronische Jets
+				\item Energiemessung im Hadronischen Kalorimeter
+			\end{itemize}
+\end{column}
+\end{columns}
+		\note[item]{ Hadronische Jets, Farbladung nicht aleine vorkommend, immmer neue Quark-Antiquark-Paare (Confinment)}
+\end{iframe}
+
+\begin{iframe}
+	\framesubtitle{L3 Detektor (1993 am LEP)}
+
+\begin{columns}
+		\begin{column}{0.40\textwidth}
+	\begin{figure}
+		\includegraphics[height=4.70cm]{img/muon}
+		\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow \mu^+ + \mu^-$ \cite{huz0}}
+	\end{figure}
+\end{column}
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+				\item Messung der Myon Spur durch mehrere Myonkammern
+				\item I.A. Keine Absorption
+			\end{itemize}
+\end{column}
+\end{columns}
 		\note[item]{Muon erst an äußeren Platten detektiert}
-	}
+\end{iframe}
+
+\begin{iframe}
+	\begin{columns}
+		\begin{column}{0.49\textwidth}
+	\begin{figure}
+		\includegraphics[height=5cm]{img/l3wirk}
+		\caption*{Wirkungsquerschnitte bei $e^-e^+$ Kollision \cite{l3hp}}
+	\end{figure}
+\end{column}
+		\begin{column}{0.49\textwidth}
+			\begin{itemize}
+				\item $Z^0$ Resonanz bei $\approx \SI{92}{GeV}$
+			\end{itemize}
+\end{column}
+\end{columns}
+	\note[item] {Achsen + Farbliche Zuordnung}
+	\note[item] {$Z^0$ Resonanz und weitere Messungen}
 \end{iframe}
 
 \subsection{Eigenschaften}
@@ -201,7 +354,7 @@
 	\begin{columns}
 		\begin{column}{0.48\textwidth}
 			\begin{equation*}
-				\sigma_f =  \frac{12 \pi \cdot \Gamma_f\cdot \Gamma_e}{(s-M_Z^2)^2 + M_Z^2\Gamma_Z^2}
+				\sigma_f \propto  \frac{\Gamma_f\cdot \Gamma_e}{(s-M_Z^2)^2 + M_Z^2\Gamma_Z^2}
 			\end{equation*}
 		\end{column}
 		\begin{column}{0.48\textwidth}
@@ -255,7 +408,7 @@
 	\begin{align*}
 		\action<+->{\Gamma_Z&=\sum_f \Gamma_{Z \rightarrow f\bar{f}}\\}
 		\action<+->{&= \Gamma_\text{u,c,d,s,b}  + \Gamma_\text{e,$\mu$,$\tau$}+ \Gamma_{\nu_e,\nu_\mu,\nu_\tau}\\}
-		\action<+->{&= N_C \cdot2\cdot\Gamma_u + N_C\cdot 3\cdot \Gamma_d + 3\cdot\Gamma_e + 3\cdot\Gamma_\nu\\}
+		\action<+->{&= N_C \cdot2\cdot\Gamma_u + N_C\cdot 3\cdot \Gamma_d + 3\cdot\Gamma_e + N_\nu \cdot\Gamma_\nu\\}
 		\action<+->{&= 3 \cdot 2\cdot\SI{94.9}{MeV} + 3\cdot3\cdot \SI{122.4}{MeV}+ 3\cdot \SI{83.3}{MeV} + 3\cdot \SI{165.8}{MeV} \\}
 		\action<+->{&=\SI{2.42}{GeV}\\}
 		\action<+->{&\xrightarrow[\text{korrektur}]{\text{Strahlungs-}}\SI{2.497}{GeV}\\}
@@ -273,8 +426,9 @@
 		\note[item]{Quantenmechanisch Herleitung der Formel nicht notwendig}
 		\note[item]{primär von Ladung abhängig}
 		\note[item]{ Lep: $e^\pm$, $\mu^\pm$, $\tau^\pm$}
-\note[item]{ Had: u,c= 2/3; d,s,b=-1/3}
-\note[item]{ Neutrinos}
+		\note[item]{ Had: u,c= 2/3; d,s,b=-1/3}
+		\note[item]{ Neutrinos}
+		\note[item] { $N_C$ Anzahl Farbledungsnmöglichkeiten}
 		}
 		\only<4> {
 		\note[item]{Einsetzen, vgl Maximal für minimale Ladung}
@@ -290,10 +444,42 @@
 \end{iframe}
 
 \begin{iframe}
+	\framesubtitle{Vergleich Theorie und Experiment}
+
+	%\begin{table}
+		\centering
+		\begin{tabular}{| c | c | c |}
+			\hline
+			  $Z^0$ Zerfall&  theoretisch& experimentell\\ \hline
+				$e^-+e^+$& \SI{3.34}{\%}& \SI{3.363(4)}{\%}\\
+				$\nu+\overline{\nu}$&\SI{19.92}{\%} & \SI{20.0(6)}{\%}\\
+				Hadronen& \SI{66.92}{\%} & \SI{69.91(6)}{\%}\\
+				\hline
+				\hline
+				$\Gamma_Z$ & \SI{2.497}{GeV} & \SI{2.495(2)}{GeV}\\
+				\hline
+		\end{tabular}
+	%\end{table}
+	\note[item]{$e^-$ exemplarisch für Leptonen}
+	\note[item]{passt alles gut}
+\end{iframe}
+
+\begin{iframe}
+	\begin{columns}
+		\begin{column}{0.48\textwidth}
 	\begin{figure}
-		\includegraphics[width=5.5cm]{img/neutrinogen}
+		\includegraphics[width=5.4cm]{img/neutrinogen}
 		\caption*{Wirkungsquerschnitt $e^+e^-\rightarrow $Hadronen \cite{povh}}
 	\end{figure}
+\end{column}
+		\begin{column}{0.48\textwidth}
+			\begin{itemize}
+				\item OPAL-Detektor am LEP
+				\item 3 Neutrinogenerationen passen zu Messungen
+				\item Hinweis für 3 Generationen von Leptonen und Quarks
+			\end{itemize}
+		\end{column}
+\end{columns}
 	\note[item]{Cern Experiment}
 	\note[item]{Wirkungsquerschnitt gegen Schwerpunktenergie  }
 	\note[item]{Ähnlich der Breit Wigner Funktion aber nicht passend symmetrisch durch Korrekturen höherer Ordnung udn Bremstrahlung durch $e^-$}
