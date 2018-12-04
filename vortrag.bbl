@@ -98,16 +98,16 @@
       \field{sortinit}{9}
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labeltitlesource}{title}
-      \field{title}{Beta-Decay}
-      \field{urlday}{12}
-      \field{urlmonth}{11}
+      \field{title}{Schwache_Wechselwirkung}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Betastrahlung
+      \verb https://de.wikipedia.org/wiki/Schwache_Wechselwirkung
       \endverb
       \verb{url}
-      \verb https://de.wikipedia.org/wiki/Betastrahlung
+      \verb https://de.wikipedia.org/wiki/Schwache_Wechselwirkung
       \endverb
     \endentry
     \entry{perkins}{book}{}
@@ -127,16 +127,32 @@
       \strng{authorbibnamehash}{d501d4c7659457ca20b6ebce858155a5}
       \strng{authornamehash}{d501d4c7659457ca20b6ebce858155a5}
       \strng{authorfullhash}{d501d4c7659457ca20b6ebce858155a5}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introduction to High Energy Physics}
       \field{year}{2000}
     \endentry
+    \entry{atlas}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{title}{International Masterclasses}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://atlas.physicsmasterclasses.org/de/index.htm
+      \endverb
+      \verb{url}
+      \verb http://atlas.physicsmasterclasses.org/de/index.htm
+      \endverb
+    \endentry
     \entry{cern}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labeltitlesource}{title}
       \field{title}{How is the beam energy calibrated through the resonant spin depolarization?}
       \field{urlday}{29}
@@ -151,8 +167,8 @@
       \endverb
     \endentry
     \entry{huz0}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labeltitlesource}{title}
       \field{title}{Versuch Z0-Resonanz}
       \field{urlday}{25}
@@ -430,8 +446,8 @@
       \strng{authorbibnamehash}{6fd8d2b57efb83d4fbf4ab92b49ea428}
       \strng{authornamehash}{6fd8d2b57efb83d4fbf4ab92b49ea428}
       \strng{authorfullhash}{43961b7212d85c997ac05cbb432a0792}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0370-2693}
@@ -453,8 +469,8 @@
       \endverb
     \endentry
     \entry{sym}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labeltitlesource}{title}
       \field{title}{Weak neutral current}
       \field{urlday}{3}
@@ -469,8 +485,8 @@
       \endverb
     \endentry
     \entry{lepacc}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labeltitlesource}{title}
       \field{title}{The LEP Accelerator}
       \field{urlday}{3}
@@ -485,8 +501,8 @@
       \endverb
     \endentry
     \entry{l3hp}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labeltitlesource}{title}
       \field{title}{L3 Home Page}
       \field{urlday}{3}
@@ -498,6 +514,69 @@
       \endverb
       \verb{url}
       \verb http://l3.web.cern.ch/l3/
+      \endverb
+    \endentry
+    \entry{hep-ex/0509008}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e69bfe9f7fa1a7960954e39f0e21e801}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima ALEPH},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4cfe5ccdfeaf9c21b108f9c34f801269}{%
+           family={DELPHI\bibnamedelima Collaboration},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
+        {{hash=cf2aa3209468598101fb2612e764944a}{%
+           family={L3\bibnamedelima Collaboration},
+           familyi={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
+        {{hash=af191a74a609a86ea8e8c725331e786c}{%
+           family={OPAL\bibnamedelima Collaboration},
+           familyi={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
+        {{hash=fbf14d31b26233e08b6bc7340a6fb813}{%
+           family={SLD\bibnamedelima Collaboration},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
+        {{hash=352cdb593514429f19cf9df40e1d2ce1}{%
+           family={LEP\bibnamedelimb Electroweak\bibnamedelimb Working\bibnamedelima Group},
+           familyi={L\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
+        {{hash=06bcabfb96f2c823a037091737dfbc30}{%
+           family={SLD\bibnamedelima electroweak},
+           familyi={S\bibinitperiod\bibinitdelim e\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
+        {{hash=cf2007da3ffb078df843a9df9de3b70e}{%
+           family={groups},
+           familyi={g\bibinitperiod},
+           prefix={heavy\bibnamedelima flavour},
+           prefixi={h\bibinitperiod\bibinitdelim f\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ebcebe346583897a54ba4703ae94dd4}
+      \strng{fullhash}{94f6d3326e7077b58d4d9a2dd7895a4d}
+      \strng{bibnamehash}{7ebcebe346583897a54ba4703ae94dd4}
+      \strng{authorbibnamehash}{7ebcebe346583897a54ba4703ae94dd4}
+      \strng{authornamehash}{7ebcebe346583897a54ba4703ae94dd4}
+      \strng{authorfullhash}{94f6d3326e7077b58d4d9a2dd7895a4d}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Phys.Rept.427:257-454,2006}
+      \field{title}{Precision Electroweak Measurements on the Z Resonance}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1016/j.physrep.2005.12.006
+      \endverb
+      \verb{eprint}
+      \verb arXiv:hep-ex/0509008
       \endverb
     \endentry
   \enddatalist

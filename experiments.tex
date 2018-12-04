@@ -1,7 +1,7 @@
-\subsection{Erzeugung}
+\subsection{Erzeugung des $Z^0$-Bosons}
  %TODO split in 2 notes
 \begin{iframe}
-	\framesubtitle{Feynman-Diagramme}
+	\framesubtitle{Feynmandiagramme zur Elektron-Positron-Annihilation}
 	\begin{columns}
 		\begin{column}{0.48\textwidth}
 			\begin{figure}
@@ -39,33 +39,41 @@
 	\item Antiteilchen Zeitlich invers (Aus Dirac-Gleichung (Schrödinger gleichung mit eingesetzter Impuls/Energie Relation wirkt auf vier komponentigen Dirac Spinor) ergeben sich positive und negative Lösungen für die Energie) (bzw. Klein Gordon Gleichung (entkoppelt)) nach Stückelberg-Feynman-Interpretation, bsplw. E-Feld $e^-$ vs $e^+$ mit anderer Richtung ist gleich. (Dirac sagte Antiteilchen vorher/definierte, wobei negative Energien besetzt sind und Löcher sich ausbreiten basierend auf Pauli-Ausschlussprinzip, da Bosonen nicht gehorchen => reverse Zeit Interpretation)
 	\item über $\gamma $oder $Z$ zu Fermion und Antifermion paar.
 	\item bei passender Energie\ approx $M_Z$  dominiert $Z^0$, aus QFT+Feynmanregeln
+	\item s-Kanal
 }
 %TODO check greater than kerne teilchen povh
 \begin{iframe}
-	\begin{itemize}
-		\item LEP
+	\framesubtitle{am Large Electron-Positron Collider (LEP)}
 		\begin{itemize}
 			\item $e^-  + e^+ \rightarrow Z^0$: Schwerpunktsenergie $\sqrt{s} = 2E_e \geq M_\text{Z}c^2 \approx \SI{91.6}{GeV}$
-			\item $e^+ + e^- \rightarrow W^+ + W^-$: benötigt $2E_e \geq 2M_\text{W}c^2 \approx \SI{160.8}{GeV}$
+			\item $e^- + e^+ \rightarrow W^+ + W^-$: benötigt $2E_e \geq 2M_\text{W}c^2 \approx \SI{160.8}{GeV}$ %TODO image
 		\end{itemize}
-		\pause
-		\item SPS/Sp$\overline{\text{p}}$S
-		\begin{itemize}
-			\item $u + \overline{u} \rightarrow Z^0 $: $pp$-Kollision benötigt $E_p \gtrapprox \SI{600}{GeV}$
-			\item $u  + \overline{u} \rightarrow Z^0 $: $p\overline{p}$-Kollision benötigt $E_p \gtrapprox \SI{300}{GeV}$
-		\end{itemize}
-	\end{itemize}
-	\only<1> {
+	\begin{figure}
+		%\includegraphics[height=3.5cm]{img/protonproton}
+		%\caption*{Proton-Proton-Kollision \cite{atlas}}
+	\end{figure}
 	\note[item]{ 1989 am Stanford Linear Collider und LEP}
 	\note[item]{Tritt nicht auf bei Energien $\approx \SI{100}{GeV}$}
 	\note[item]{ 1996 am LEP, 50 $\rightarrow$ 86 $\rightarrow$  \SI{104.6}{GeV}}
-	}
-	\only<2> {
-	\note[item]{Energie muss in Quarks enthalten sein $\rightarrow$ sehr viel mehr Energie auf Protonen (analog mit d) => e-e+ Kollision einfacher}
+\end{iframe}
+
+\begin{iframe}
+	\framesubtitle{am Super Proton Synchrotron (SPS/Sp$\overline{\text{p}}$S)}
+	\begin{itemize}
+			\item $u + \overline{u} \rightarrow Z^0 $: $pp$-Kollision benötigt $E_p \gtrapprox \SI{600}{GeV}$
+			\item $u  + \overline{u} \rightarrow Z^0 $: $p\overline{p}$-Kollision benötigt $E_p \gtrapprox \SI{300}{GeV}$
+		\end{itemize}
+		\begin{figure}
+			\includegraphics[height=3.7cm]{img/protonproton}
+			\caption*{Proton-Proton-Kollision \cite{atlas}}
+		\end{figure}
+
+\note[item]{Energie muss in Quarks enthalten sein $\rightarrow$ sehr viel mehr Energie auf Protonen (analog mit d) => e-e+ Kollision einfacher}
 
 	\note[item] { Besser Proton-Antiproton, da weniger Enrgie notwendig.}
 	\note[item]{ in Beschleuniger inverse Rotation}
-	}
+	\note[item]{Veranschaulichung der Seequarks, Pfeile nicht direkt relevant}
+	\note[item]{Keine Trennung up-down, sondern grün ist Antiquark}
 \end{iframe}
 
 \iffalse
@@ -110,7 +118,7 @@
 
 \subsection{Nachweis}
 \begin{iframe}
-\framesubtitle{durch neutrale Ströme}
+\framesubtitle{des $Z^0$-Bosons durch neutrale Ströme}
 	\begin{columns}
 		\begin{column}{0.59\textwidth}
 			\begin{figure}
@@ -120,7 +128,7 @@
 		\begin{column}{0.39\textwidth}
 			\begin{itemize}
 				\item Neutrinostrahl durch $\pi^+ \rightarrow \mu^+ + \overline{\nu}_\mu $
-				\item Blasenkammer: $\bar{\nu}_\mu + e^- \rightarrow \bar{\nu}_\mu + e^-$
+				\item Blasenkammer: $\bar{\nu}_\mu + e^- \xrightarrow{Z^0} \bar{\nu}_\mu + e^-$
 				\item Elektron sendet Bremsstrahlung aus
 				\item $e^-e^+$-Paarbildung $\rightarrow$ elektromagnetischer Schauer
 			\end{itemize}
@@ -181,6 +189,15 @@
 	\note[item] { Erzeugung, Lineare Beschleuniger und Vorstufen }
 \end{iframe}
 
+\begin{iframe} %TODO notwendig?
+	\framesubtitle{L3 Detektoraufbau am LEP}
+\begin{figure}
+		\includegraphics[height=5cm]{img/detektor}
+		\caption*{L3 Detektor \cite{huz0}}
+	\end{figure}
+	\note[item]{Mensch für Größenverhältnis.}
+	\note[item]{Magnet im ALICE wieder verwendet.}
+\end{iframe}
 \begin{iframe}
 	\framesubtitle{L3 Detektoraufbau am LEP}
 	\begin{columns}
@@ -196,7 +213,7 @@
 			\item Spurdetektor
 			\item Elektromagnetisches Kalorimeter
 			\item Hadronisches Kalorimeter
-			\item Myonkammer
+			\item Myonenkammer
 		\end{enumerate}
 \end{column}
 \end{columns}
@@ -207,25 +224,10 @@
 	\note[item]{Krümmung gibt Impuls und Ladung}
 	\note[item]{EM Kalorimeter: Energie von Elektron und Photon, EM Teilchen wird absorbiert}
 	\note[item]{Had Kalorimeter: Energie von Hadronen, starke WW Teilchen werden absorbiert}
-	\note[item]{Myonkammern: Für Myonen, groß, weil geringe WW}
+	\note[item]{Myonenkammern: Für Myonen, groß, weil geringe WW}
 	\note[item]{Vortrag speziell zur Teilchendetektion}
 \end{iframe}
 
-\begin{iframe} %TODO notwendig?
-	\framesubtitle{L3 Detektoraufbau am LEP}
-	\begin{columns}
-	\begin{column}{0.49\textwidth}
-\begin{figure}
-		\includegraphics[height=4.0cm]{img/detektor}
-		\caption*{L3 Detektor \cite{huz0}}
-	\end{figure}
-\end{column}
-	\begin{column}{0.49\textwidth}
-\end{column}
-\end{columns}
-	\note[item]{Mensch für Größenverhältnis.}
-	\note[item]{Magnet im ALICE wieder verwendet.}
-\end{iframe}
 
 
 
@@ -276,6 +278,7 @@
 \end{column}
 \end{columns}
 		\note[item]{ Hadronische Jets, Farbladung nicht aleine vorkommend, immmer neue Quark-Antiquark-Paare (Confinment)}
+				\note[item]{ Zerfallsquarks kaum unterscheidbar}
 \end{iframe}
 
 \begin{iframe}
@@ -290,7 +293,7 @@
 \end{column}
 		\begin{column}{0.58\textwidth}
 			\begin{itemize}
-				\item Messung der Spur der Myonen durch mehrere Myonkammern
+				\item Messung der Spur der Myonen durch mehrere Myonenkammern
 				\item I.A. keine Absorption
 			\end{itemize}
 \end{column}
@@ -299,21 +302,31 @@
 \end{iframe}
 
 \begin{iframe}
+	\framesubtitle{$Z^0$-Resonanz bei $\approx$\SI{91}{GeV}}
 	\begin{columns}
 		\begin{column}{0.49\textwidth}
 	\begin{figure}
-		\includegraphics[height=5cm]{img/l3wirk}
+		\includegraphics[height=4.4cm]{img/l3wirk}
 		\caption*{Wirkungsquerschnitte bei $e^-e^+$ Kollision \cite{l3hp}}
 	\end{figure}
 \end{column}
+
 		\begin{column}{0.49\textwidth}
-			\begin{itemize}
-				\item $Z^0$ Resonanz bei $\approx \SI{91}{GeV}$
-			\end{itemize}
-\end{column}
+
+	\begin{figure}
+		\includegraphics[height=4.2cm]{img/fullwirk}
+		\caption*{Wirkungsquerschnitte verschiedener Beschleuniger \cite{hep-ex/0509008}}
+	\end{figure}
+
+%\begin{itemize}
+				%\item $Z^0$ Resonanz bei $\approx \SI{91}{GeV}$
+			%\end{itemize}
+			\end{column}
 \end{columns}
+
 	\note[item] {Achsen + Farbliche Zuordnung}
 	\note[item] {$Z^0$ Resonanz und weitere Messungen}
+	%TODO mehr hier
 \end{iframe}
 
 \subsection{Eigenschaften}
@@ -322,8 +335,8 @@
 	\begin{itemize}
 		\item Messung: %TODO Graphik!!
 		\begin{itemize}
-			\item $M_Z = \SI{91.188+-0.002}{GeV/c^2}$
-			\item $\Gamma_Z = \SI{2.495+-0.002}{GeV}$
+			\item Ruhemasse $M_Z = \SI{91.188+-0.002}{GeV/c^2}$
+			\item Zerfallsbreite $\Gamma_Z = \SI{2.495+-0.002}{GeV}$
 		\end{itemize}
 		\pause
 		\item Zerfall:
@@ -376,12 +389,21 @@
 \end{iframe}
 
 \begin{iframe}
-	\framesubtitle{Zerfallsbreite}
+	\framesubtitle{Berechnung der Zerfallsbreite}
 	\only<3> {
 	\begin{textblock*}{5cm}(6.5cm,2.4cm) % {block width} (coords)
 	\begin{equation*}
 		\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)
 	\end{equation*}
+	\end{textblock*}
+	\begin{textblock*}{5cm}(6.5cm,5.6cm)
+		{\small
+		\begin{align*}
+			N_C:& \quad \text{Anzahl der Farbladungen}\\
+			N_\nu:& \quad \text{Anzahl der Neutrinogenerationen}\\
+			G_F:& \quad \text{Fermi-Kopplungskonstante}\\
+			Q_f:& \quad \text{Ladung} \\
+		\end{align*} }
 	\end{textblock*}
 	}
 	\only<4> {
@@ -390,6 +412,15 @@
 		\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)
 	\end{equation*}
 	\end{textblock*}
+	\begin{textblock*}{5cm}(6.5cm,5.6cm)
+		{\small
+		\begin{align*}
+			N_C:& \quad \text{Anzahl der Farbladungen}\\
+			N_\nu:& \quad \text{Anzahl der Neutrinogenerationen}\\
+			G_F:& \quad \text{Fermi-Kopplungskonstante}\\
+			Q_f:& \quad \text{Ladung} \\
+		\end{align*} }
+	\end{textblock*}
 	}
 	\only<5> {
 	\begin{textblock*}{5cm}(6.5cm,2.4cm) % {block width} (coords)
@@ -397,12 +428,30 @@
 		\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)
 	\end{equation*}
 	\end{textblock*}
+	\begin{textblock*}{5cm}(6.5cm,5.6cm)
+		{\small
+		\begin{align*}
+			N_C:& \quad \text{Anzahl der Farbladungen}\\
+			N_\nu:& \quad \text{Anzahl der Neutrinogenerationen}\\
+			G_F:& \quad \text{Fermi-Kopplungskonstante}\\
+			Q_f:& \quad \text{Ladung} \\
+		\end{align*} }
+	\end{textblock*}
 	}
 	\only<6> {
 	\begin{textblock*}{5cm}(6.5cm,2.4cm) % {block width} (coords)
 	\begin{equation*}
 		\Gamma_f=\frac{G_F M_Z^3}{24\sqrt{2}\pi}\cdot (1+(1-e|Q_f|\sin^2{\theta_W})^2)
 	\end{equation*}
+	\end{textblock*}
+	\begin{textblock*}{5cm}(6.5cm,5.6cm)
+		{\small
+		\begin{align*}
+			N_C:& \quad \text{Anzahl der Farbladungen}\\
+			N_\nu:& \quad \text{Anzahl der Neutrinogenerationen}\\
+			G_F:& \quad \text{Fermi-Kopplungskonstante}\\
+			Q_f:& \quad \text{Ladung} \\
+		\end{align*} }
 	\end{textblock*}
 	}
 	\begin{align*}
@@ -475,7 +524,7 @@
 		\begin{column}{0.48\textwidth}
 			\begin{itemize}
 				\item OPAL-Detektor am LEP
-				\item 3 Neutrinogenerationen passen zu Messungen
+				\item Messung bestätigt vermutete 3 Neutrinogenerationen
 				\item Hinweis für 3 Generationen von Leptonen und Quarks
 			\end{itemize}
 		\end{column}

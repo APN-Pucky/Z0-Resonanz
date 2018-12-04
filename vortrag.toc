@@ -6,7 +6,7 @@
 \beamer@subsectionintoc {3}{1}{Einordnung im Standardmodell der Elementarteilchen}{10}{0}{2}
 \beamer@subsectionintoc {3}{2}{Elektroschwache Vereinheitlichung}{11}{0}{2}
 \beamer@sectionintoc {4}{Experimentelle Untersuchung}{21}{0}{3}
-\beamer@subsectionintoc {4}{1}{Erzeugung}{22}{0}{3}
+\beamer@subsectionintoc {4}{1}{Erzeugung des $Z^0$-Bosons}{22}{0}{3}
 \beamer@subsectionintoc {4}{2}{Nachweis}{27}{0}{3}
 \beamer@subsectionintoc {4}{3}{Präzisionsmessungen}{29}{0}{3}
 \beamer@subsectionintoc {4}{4}{Eigenschaften}{36}{0}{3}
