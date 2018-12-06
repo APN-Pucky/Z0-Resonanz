@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'vortrag.blg'
-[30] biber-MSWIN32:313> INFO - === 
-[59] Biber.pm:371> INFO - Reading 'vortrag.bcf'
-[140] Biber.pm:857> INFO - Found 14 citekeys in bib section 0
-[153] Biber.pm:3976> INFO - Processing section 0
-[164] Biber.pm:4136> INFO - Looking for bibtex format file 'z0resonanz_ref.bib' for section 0
-[167] bibtex.pm:1500> INFO - LaTeX decoding ...
-[182] bibtex.pm:1316> INFO - Found BibTeX data source 'z0resonanz_ref.bib'
-[277] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[278] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[278] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[278] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[291] bbl.pm:617> INFO - Writing 'vortrag.bbl' with encoding 'UTF-8'
-[298] bbl.pm:720> INFO - Output to vortrag.bbl
+[41] biber-MSWIN32:313> INFO - === 
+[69] Biber.pm:371> INFO - Reading 'vortrag.bcf'
+[149] Biber.pm:857> INFO - Found 14 citekeys in bib section 0
+[162] Biber.pm:3976> INFO - Processing section 0
+[173] Biber.pm:4136> INFO - Looking for bibtex format file 'z0resonanz_ref.bib' for section 0
+[176] bibtex.pm:1500> INFO - LaTeX decoding ...
+[195] bibtex.pm:1316> INFO - Found BibTeX data source 'z0resonanz_ref.bib'
+[306] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[307] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[307] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[307] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[320] bbl.pm:617> INFO - Writing 'vortrag.bbl' with encoding 'UTF-8'
+[327] bbl.pm:720> INFO - Output to vortrag.bbl

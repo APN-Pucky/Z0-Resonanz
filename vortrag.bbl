@@ -110,78 +110,6 @@
       \verb https://de.wikipedia.org/wiki/Schwache_Wechselwirkung
       \endverb
     \endentry
-    \entry{perkins}{book}{}
-      \name{author}{1}{}{%
-        {{hash=d501d4c7659457ca20b6ebce858155a5}{%
-           family={Perkins},
-           familyi={P\bibinitperiod},
-           given={Donald\bibnamedelima H.},
-           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{d501d4c7659457ca20b6ebce858155a5}
-      \strng{fullhash}{d501d4c7659457ca20b6ebce858155a5}
-      \strng{bibnamehash}{d501d4c7659457ca20b6ebce858155a5}
-      \strng{authorbibnamehash}{d501d4c7659457ca20b6ebce858155a5}
-      \strng{authornamehash}{d501d4c7659457ca20b6ebce858155a5}
-      \strng{authorfullhash}{d501d4c7659457ca20b6ebce858155a5}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction to High Energy Physics}
-      \field{year}{2000}
-    \endentry
-    \entry{atlas}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
-      \field{labeltitlesource}{title}
-      \field{title}{International Masterclasses}
-      \field{urlday}{4}
-      \field{urlmonth}{12}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://atlas.physicsmasterclasses.org/de/index.htm
-      \endverb
-      \verb{url}
-      \verb http://atlas.physicsmasterclasses.org/de/index.htm
-      \endverb
-    \endentry
-    \entry{cern}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
-      \field{labeltitlesource}{title}
-      \field{title}{How is the beam energy calibrated through the resonant spin depolarization?}
-      \field{urlday}{29}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://tlep.web.cern.ch/content/how-beam-energy-calibrated-through-resonant-spin-depolarization
-      \endverb
-      \verb{url}
-      \verb http://tlep.web.cern.ch/content/how-beam-energy-calibrated-through-resonant-spin-depolarization
-      \endverb
-    \endentry
-    \entry{huz0}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
-      \field{labeltitlesource}{title}
-      \field{title}{Versuch Z0-Resonanz}
-      \field{urlday}{25}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.physik.hu-berlin.de/de/eephys/teaching/lab/z0resonance/index_html
-      \endverb
-      \verb{url}
-      \verb https://www.physik.hu-berlin.de/de/eephys/teaching/lab/z0resonance/index_html
-      \endverb
-    \endentry
     \entry{HASERT1973121}{article}{}
       \name{author}{51}{}{%
         {{hash=7661b9b2a13d5b58565b6fb55c042b0e}{%
@@ -446,8 +374,8 @@
       \strng{authorbibnamehash}{6fd8d2b57efb83d4fbf4ab92b49ea428}
       \strng{authornamehash}{6fd8d2b57efb83d4fbf4ab92b49ea428}
       \strng{authorfullhash}{43961b7212d85c997ac05cbb432a0792}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0370-2693}
@@ -469,8 +397,8 @@
       \endverb
     \endentry
     \entry{sym}{online}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labeltitlesource}{title}
       \field{title}{Weak neutral current}
       \field{urlday}{3}
@@ -484,9 +412,49 @@
       \verb https://www.symmetrymagazine.org/article/august-2009/weak-neutral-current
       \endverb
     \endentry
+    \entry{perkins}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d501d4c7659457ca20b6ebce858155a5}{%
+           family={Perkins},
+           familyi={P\bibinitperiod},
+           given={Donald\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d501d4c7659457ca20b6ebce858155a5}
+      \strng{fullhash}{d501d4c7659457ca20b6ebce858155a5}
+      \strng{bibnamehash}{d501d4c7659457ca20b6ebce858155a5}
+      \strng{authorbibnamehash}{d501d4c7659457ca20b6ebce858155a5}
+      \strng{authornamehash}{d501d4c7659457ca20b6ebce858155a5}
+      \strng{authorfullhash}{d501d4c7659457ca20b6ebce858155a5}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to High Energy Physics}
+      \field{year}{2000}
+    \endentry
+    \entry{atlas}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{title}{International Masterclasses}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://atlas.physicsmasterclasses.org/de/index.htm
+      \endverb
+      \verb{url}
+      \verb http://atlas.physicsmasterclasses.org/de/index.htm
+      \endverb
+    \endentry
     \entry{lepacc}{online}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labeltitlesource}{title}
       \field{title}{The LEP Accelerator}
       \field{urlday}{3}
@@ -500,20 +468,135 @@
       \verb http://www.hep.ucl.ac.uk/~jpc/all/ulthesis/node15.html
       \endverb
     \endentry
-    \entry{l3hp}{online}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+    \entry{Arnaudon1995}{article}{}
+      \name{author}{13}{}{%
+        {{hash=cf6b065a39e8fa16eb652b543cc552d8}{%
+           family={Arnaudon},
+           familyi={A\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f0a9152945667ac12a3c030b5a1b04a8}{%
+           family={Dehning},
+           familyi={D\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8928e6b2eac4a48abd79d3339d476ed4}{%
+           family={Grosse-Wiesmann},
+           familyi={G\bibinithyphendelim W\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4579134b42b270d016a756ae91a9961b}{%
+           family={Jacobsen},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6718bab18f6ee3291e6e5d5ea53beacf}{%
+           family={Jonker},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=703e645ea4594feab7a83a30dfd1362a}{%
+           family={Koutchouk},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=cdc7f8af97890b5bc8ac4af0ab4ef0ca}{%
+           family={Miles},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3806434db5db18abd623e67dea7c2669}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=45d2da56853e02f6e6ca3a16a32bceac}{%
+           family={Placidi},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7ce7484d1b0b807210ba90ec7756eb72}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d7552832eafaa5038bb555d253051a01}{%
+           family={Wenninger},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e7fd8a8d5290f5205ceddbc1339bb834}{%
+           family={Assmann},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a8a65caac7e80d9e188a97ed7517609c}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{b61878da9af581f0626dc5d90f2937d4}
+      \strng{fullhash}{fb32d53b0428efd6690aae39082a2d9c}
+      \strng{bibnamehash}{b61878da9af581f0626dc5d90f2937d4}
+      \strng{authorbibnamehash}{b61878da9af581f0626dc5d90f2937d4}
+      \strng{authornamehash}{b61878da9af581f0626dc5d90f2937d4}
+      \strng{authorfullhash}{fb32d53b0428efd6690aae39082a2d9c}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{L3 Home Page}
-      \field{urlday}{3}
-      \field{urlmonth}{12}
+      \field{journaltitle}{Zeitschrift f�r Physik C Particles and Fields}
+      \field{month}{3}
+      \field{number}{1-2}
+      \field{title}{Accurate determination of the {LEP} beam energy by resonant depolarization}
+      \field{volume}{66}
+      \field{year}{1995}
+      \field{pages}{45\bibrangedash 62}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/bf01496579
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/bf01496579
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/bf01496579
+      \endverb
+    \endentry
+    \entry{cern}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labeltitlesource}{title}
+      \field{title}{How is the beam energy calibrated through the resonant spin depolarization?}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb http://l3.web.cern.ch/l3/
+      \verb http://tlep.web.cern.ch/content/how-beam-energy-calibrated-through-resonant-spin-depolarization
       \endverb
       \verb{url}
-      \verb http://l3.web.cern.ch/l3/
+      \verb http://tlep.web.cern.ch/content/how-beam-energy-calibrated-through-resonant-spin-depolarization
+      \endverb
+    \endentry
+    \entry{huz0}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch Z0-Resonanz}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.physik.hu-berlin.de/de/eephys/teaching/lab/z0resonance/index_html
+      \endverb
+      \verb{url}
+      \verb https://www.physik.hu-berlin.de/de/eephys/teaching/lab/z0resonance/index_html
       \endverb
     \endentry
     \entry{hep-ex/0509008}{article}{}

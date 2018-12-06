@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.10.19)  4 DEC 2018 23:29
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.10.19)  6 DEC 2018 22:47
  restricted system commands enabled.
  file:line:error style messages enabled.
 **vortrag
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.225 seconds (c:/texlive/2018/
+luaotfload | main : initialization completed in 0.249 seconds (c:/texlive/2018/
 texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/09/20 v3.54 A class for typesetting presentations
 (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -1474,24 +1474,24 @@ Lua module: polyglossia 2013/05/11 1.3 Polyglossia)
 (c:/texlive/2018/texmf-dist/tex/latex/polyglossia/gloss-german.ldf
 File: gloss-german.ldf polyglossia: module for german
 Module polyglossia Info: Language data for german
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
-(polyglossia)            synonyms	table: 0B013440
-(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            synonyms	table: 0ADC7938
+(polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns: hyph-de-1901.pat.txt on input line 6
 Module polyglossia Info: Language german was not yet loaded; created with id 4 o
 n input line 6
 Module polyglossia Info: Language german already loaded; id is 4 on input line 6
 
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
-(polyglossia)            synonyms	table: 0B013490
-(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            synonyms	table: 0ADC75F0
+(polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns: hyph-de-1996.pat.txt on input line 68
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 8 
 on input line 68
@@ -2386,12 +2386,7 @@ Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 (c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-) (./vortrag.aux
-luatex-hyphen: loading patterns and exceptions for: german (\language4)
-luatex-hyphen: info: no hyphenation exceptions for this language
-Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
-25
-)
+) (./vortrag.aux)
 \openout1 = vortrag.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -2558,7 +2553,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `MetaOffcPro' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<wwustyle/pantone312glocke.pdf, id=61, 964.54855pt x 542.025pt>
+<wwustyle/pantone312glocke.pdf, id=13, 964.54855pt x 542.025pt>
 File: wwustyle/pantone312glocke.pdf Graphic file (type pdf)
 <use wwustyle/pantone312glocke.pdf>
 Package luatex.def Info: wwustyle/pantone312glocke.pdf  used on input line 22.
@@ -2581,13 +2576,20 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'vortrag.bbl' found.
 
-(./vortrag.bbl)
+(./vortrag.bbl
+./vortrag.bbl:552: String contains an invalid utf-8 sequence.
+l.552       \field{journaltitle}{Zeitschrift f
+                                            �r Physik C Particles and Fields}
+A funny symbol that I can't read has just been (re)read.
+Just continue, I'll change it to 0xFFFD.
+
+)
 Package biblatex Info: Reference section=0 on input line 22.
 Package biblatex Info: Reference segment=0 on input line 22.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./vortrag.nav)
-<wwustyle/WWUMuenster_Logo_2017_4c.pdf, id=62, 227.62239pt x 76.8224pt>
+<wwustyle/WWUMuenster_Logo_2017_4c.pdf, id=14, 227.62239pt x 76.8224pt>
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
@@ -2605,8 +2607,7 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 5.99991pt on input line 22.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99992pt on input line 22.
-
-(c:/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
+ (c:/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (c:/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -2655,7 +2656,7 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 7.69984pt on input line 29.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 5.49991pt on input line 29.
-<wwustyle/wissenlebengrey.pdf, id=65, 107.70659pt x 14.74088pt>
+<wwustyle/wissenlebengrey.pdf, id=17, 107.70659pt x 14.74088pt>
 File: wwustyle/wissenlebengrey.pdf Graphic file (type pdf)
 <use wwustyle/wissenlebengrey.pdf>
 Package luatex.def Info: wwustyle/wissenlebengrey.pdf  used on input line 29.
@@ -2674,6 +2675,8 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 6.9999pt on input line 29.
  (./vortrag.toc
+luatex-hyphen: loading patterns and exceptions for: german (\language4)
+luatex-hyphen: info: no hyphenation exceptions for this language
 Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
 3
 )
@@ -2721,7 +2724,7 @@ Overfull \hbox (12.97568pt too wide) in paragraph at lines 64--64
 [][] 
  []
 
-<img/weinberg_glasgow_salam.jpg, id=127, 616.3025pt x 288.07625pt>
+<img/weinberg_glasgow_salam.jpg, id=80, 616.3025pt x 288.07625pt>
 File: img/weinberg_glasgow_salam.jpg Graphic file (type jpg)
 <use img/weinberg_glasgow_salam.jpg>
 Package luatex.def Info: img/weinberg_glasgow_salam.jpg  used on input line 64.
@@ -2777,7 +2780,7 @@ Overfull \hbox (12.97568pt too wide) in paragraph at lines 64--64
 [][] 
  []
 
-<img/rubbiameer.png, id=160, 619.56468pt x 469.755pt>
+<img/rubbiameer.png, id=114, 619.56468pt x 469.755pt>
 File: img/rubbiameer.png Graphic file (type png)
 <use img/rubbiameer.png>
 Package luatex.def Info: img/rubbiameer.png  used on input line 64.
@@ -2861,7 +2864,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.8'
 
 ] (./theory.tex
-<img/standardmodel.png, id=220, 722.7pt x 692.5875pt>
+<img/standardmodel.png, id=174, 722.7pt x 692.5875pt>
 File: img/standardmodel.png Graphic file (type png)
 <use img/standardmodel.png>
 Package luatex.def Info: img/standardmodel.png  used on input line 35.
@@ -2901,7 +2904,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.10'
 
 <./img/standardmodel.png>]
-<img/isospin.png, id=262, 590.205pt x 324.46219pt>
+<img/isospin.png, id=218, 590.205pt x 324.46219pt>
 File: img/isospin.png Graphic file (type png)
 <use img/isospin.png>
 Package luatex.def Info: img/isospin.png  used on input line 98.
@@ -2924,7 +2927,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.11'
 
 ]
-<img/betadecay_old.png, id=279, 698.61pt x 584.1825pt>
+<img/betadecay_old.png, id=236, 698.61pt x 584.1825pt>
 File: img/betadecay_old.png Graphic file (type png)
 <use img/betadecay_old.png>
 Package luatex.def Info: img/betadecay_old.png  used on input line 157.
@@ -2933,12 +2936,12 @@ File: img/betadecay_old.png Graphic file (type png)
 <use img/betadecay_old.png>
 Package luatex.def Info: img/betadecay_old.png  used on input line 157.
 (luatex.def)             Requested size: 153.11903pt x 128.0374pt.
-<img/betadecay.png, id=284, 167.6664pt x 140.2038pt>
+<img/betadecay.png, id=241, 167.6664pt x 140.2038pt>
 File: img/betadecay.png Graphic file (type png)
 <use img/betadecay.png>
 Package luatex.def Info: img/betadecay.png  used on input line 157.
 (luatex.def)             Requested size: 153.11646pt x 128.0374pt.
-<img/kaondecay.png, id=287, 246.6816pt x 184.0476pt>
+<img/kaondecay.png, id=244, 246.6816pt x 184.0476pt>
 File: img/kaondecay.png Graphic file (type png)
 <use img/kaondecay.png>
 Package luatex.def Info: img/kaondecay.png  used on input line 157.
@@ -3170,7 +3173,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.16'
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 191.
+ne 192.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [18
 
@@ -3184,7 +3187,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.17'
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 191.
+ne 192.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [19
 
@@ -3198,7 +3201,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.18'
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 191.
+ne 192.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [20
 
@@ -3226,120 +3229,23 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.20'
 
 ] (./experiments.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-./experiments.tex:32: Missing { inserted.
-<to be read again> 
-$
-l.32 \end{iframe}
-               
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-If you're confused by all this, try typing `I}' now.
-
-./experiments.tex:32: Missing } inserted.
-<inserted text> 
-}
-l.32 \end{iframe}
-               
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./experiments.tex:32: Missing { inserted.
-<to be read again> 
-$
-l.32 \end{iframe}
-               
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-If you're confused by all this, try typing `I}' now.
-
-./experiments.tex:32: Missing } inserted.
-<inserted text> 
-}
-l.32 \end{iframe}
-               
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./experiments.tex:32: Missing { inserted.
-<to be read again> 
-$
-l.32 \end{iframe}
-               
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-If you're confused by all this, try typing `I}' now.
-
-./experiments.tex:32: Missing } inserted.
-<inserted text> 
-}
-l.32 \end{iframe}
-               
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./experiments.tex:32: Missing { inserted.
-<to be read again> 
-$
-l.32 \end{iframe}
-               
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-If you're confused by all this, try typing `I}' now.
-
-./experiments.tex:32: Missing } inserted.
-<inserted text> 
-}
-l.32 \end{iframe}
-               
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-<img/zeit.png, id=483, 476.982pt x 54.2025pt>
-File: img/zeit.png Graphic file (type png)
-<use img/zeit.png>
-Package luatex.def Info: img/zeit.png  used on input line 32.
-(luatex.def)             Requested size: 62.59209pt x 7.11317pt.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 32.
+<img/neutralerstrom.jpg, id=437, 249.0906pt x 302.5704pt>
+File: img/neutralerstrom.jpg Graphic file (type jpg)
+<use img/neutralerstrom.jpg>
+Package luatex.def Info: img/neutralerstrom.jpg  used on input line 30.
+(luatex.def)             Requested size: 126.4872pt x 153.6447pt.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.00021pt on input line 32.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.8001pt on input line 32.
+(Font)              scaled to size 12.00018pt on input line 30.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 13.99979pt on input line 32.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 9.7998pt on input line 32.
+(Font)              scaled to size 11.99982pt on input line 30.
+
+Overfull \vbox (4.01614pt too high) detected at line 30
+ []
+
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 32.
+ne 30.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [22
 
@@ -3350,13 +3256,120 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.21'
 
 ]
-Overfull \vbox (9.83003pt too high) detected at line 43
- []
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 32.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 32.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 32.
+
+./experiments.tex:63: Missing { inserted.
+<to be read again> 
+$
+l.63 \end{iframe}
+               
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+./experiments.tex:63: Missing } inserted.
+<inserted text> 
+}
+l.63 \end{iframe}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./experiments.tex:63: Missing { inserted.
+<to be read again> 
+$
+l.63 \end{iframe}
+               
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+./experiments.tex:63: Missing } inserted.
+<inserted text> 
+}
+l.63 \end{iframe}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./experiments.tex:63: Missing { inserted.
+<to be read again> 
+$
+l.63 \end{iframe}
+               
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+./experiments.tex:63: Missing } inserted.
+<inserted text> 
+}
+l.63 \end{iframe}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./experiments.tex:63: Missing { inserted.
+<to be read again> 
+$
+l.63 \end{iframe}
+               
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+./experiments.tex:63: Missing } inserted.
+<inserted text> 
+}
+l.63 \end{iframe}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<img/zeit.png, id=475, 476.982pt x 54.2025pt>
+File: img/zeit.png Graphic file (type png)
+<use img/zeit.png>
+Package luatex.def Info: img/zeit.png  used on input line 63.
+(luatex.def)             Requested size: 62.59209pt x 7.11317pt.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 63.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 14.00021pt on input line 63.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 9.8001pt on input line 63.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 13.99979pt on input line 63.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 9.7998pt on input line 63.
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 58.
+ne 63.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [23
 
@@ -3366,24 +3379,23 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.22'
 
-<./img/zeit.png>]
-<img/protonproton.jpg, id=535, 443.40656pt x 202.50656pt>
+<./img/neutralerstrom.jpg>]
+Overfull \vbox (9.83003pt too high) detected at line 74
+ []
+
+<img/protonproton.jpg, id=499, 443.40656pt x 202.50656pt>
 File: img/protonproton.jpg Graphic file (type jpg)
 <use img/protonproton.jpg>
-Package luatex.def Info: img/protonproton.jpg  used on input line 77.
+Package luatex.def Info: img/protonproton.jpg  used on input line 94.
 (luatex.def)             Requested size: 230.51184pt x 105.2751pt.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 77.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 77.
 
-Overfull \vbox (16.89229pt too high) detected at line 77
+Overfull \vbox (16.89229pt too high) detected at line 94
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 77.
+ne 94.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [24
 
@@ -3393,22 +3405,18 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.23'
 
-]
-<img/gezeit.png, id=552, 819.8128pt x 509.65407pt>
-File: img/gezeit.png Graphic file (type png)
-<use img/gezeit.png>
-Package luatex.def Info: img/gezeit.png  used on input line 117.
-(luatex.def)             Requested size: 228.84549pt x 142.26378pt.
-
-Overfull \vbox (17.1152pt too high) detected at line 117
- []
-
+<./img/zeit.png>]
+<img/lego.png, id=521, 719.68875pt x 600.74437pt>
+File: img/lego.png Graphic file (type png)
+<use img/lego.png>
+Package luatex.def Info: img/lego.png  used on input line 116.
+(luatex.def)             Requested size: 142.26378pt x 118.75342pt.
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 117.
+ne 116.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
-[25
+ [25
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -3417,19 +3425,19 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.24'
 
 <./img/protonproton.jpg>]
-<img/tide.png, id=571, 602.25pt x 604.50844pt>
-File: img/tide.png Graphic file (type png)
-<use img/tide.png>
-Package luatex.def Info: img/tide.png  used on input line 117.
-(luatex.def)             Requested size: 141.73093pt x 142.26378pt.
+<img/lep.png, id=545, 154.6578pt x 148.6353pt>
+File: img/lep.png Graphic file (type png)
+<use img/lep.png>
+Package luatex.def Info: img/lep.png  used on input line 141.
+(luatex.def)             Requested size: 148.03792pt x 142.26378pt.
 
-Overfull \vbox (17.1152pt too high) detected at line 117
+Overfull \vbox (17.1152pt too high) detected at line 141
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 117.
+ne 141.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [26
 
@@ -3439,16 +3447,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.25'
 
-<./img/gezeit.PNG>]
-<img/neutralerstrom.jpg, id=591, 410.0118pt x 321.8424pt>
-File: img/neutralerstrom.jpg Graphic file (type jpg)
-<use img/neutralerstrom.jpg>
-Package luatex.def Info: img/neutralerstrom.jpg  used on input line 147.
-(luatex.def)             Requested size: 190.63338pt x 149.64043pt.
+<./img/lego.PNG>]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 147.
+ne 164.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [27
 
@@ -3458,18 +3461,22 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.26'
 
-<./img/tide.PNG>]
-<img/lego.png, id=611, 719.68875pt x 600.74437pt>
-File: img/lego.png Graphic file (type png)
-<use img/lego.png>
-Package luatex.def Info: img/lego.png  used on input line 166.
-(luatex.def)             Requested size: 142.26378pt x 118.75342pt.
+<./img/lep.png>]
+<img/resspin.png, id=581, 549.55313pt x 639.89063pt>
+File: img/resspin.png Graphic file (type png)
+<use img/resspin.png>
+Package luatex.def Info: img/resspin.png  used on input line 195.
+(luatex.def)             Requested size: 117.2879pt x 136.5733pt.
+
+Overfull \vbox (12.42473pt too high) detected at line 195
+ []
+
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 166.
+ne 195.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
- [28
+[28
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -3477,20 +3484,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.27'
 
-<./img/neutralerstrom.jpg>]
-<img/lep.png, id=636, 154.6578pt x 148.6353pt>
-File: img/lep.png Graphic file (type png)
-<use img/lep.png>
-Package luatex.def Info: img/lep.png  used on input line 190.
-(luatex.def)             Requested size: 148.03792pt x 142.26378pt.
+]
+<img/gezeit.png, id=598, 819.8128pt x 509.65407pt>
+File: img/gezeit.png Graphic file (type png)
+<use img/gezeit.png>
+Package luatex.def Info: img/gezeit.png  used on input line 216.
+(luatex.def)             Requested size: 228.84549pt x 142.26378pt.
 
-Overfull \vbox (17.1152pt too high) detected at line 190
+Overfull \vbox (17.1152pt too high) detected at line 216
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 190.
+ne 216.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [29
 
@@ -3500,20 +3507,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.28'
 
-<./img/lego.PNG>]
-<img/detektor.png, id=655, 768.62157pt x 573.64313pt>
-File: img/detektor.png Graphic file (type png)
-<use img/detektor.png>
-Package luatex.def Info: img/detektor.png  used on input line 200.
-(luatex.def)             Requested size: 190.61852pt x 142.26378pt.
+<./img/resspin.PNG>]
+<img/tide.png, id=618, 602.25pt x 604.50844pt>
+File: img/tide.png Graphic file (type png)
+<use img/tide.png>
+Package luatex.def Info: img/tide.png  used on input line 216.
+(luatex.def)             Requested size: 141.73093pt x 142.26378pt.
 
-Overfull \vbox (15.2792pt too high) detected at line 200
+Overfull \vbox (17.1152pt too high) detected at line 216
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 200.
+ne 216.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [30
 
@@ -3523,20 +3530,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.29'
 
-<./img/lep.png>]
-<img/skizze.png, id=675, 527.72156pt x 484.81125pt>
-File: img/skizze.png Graphic file (type png)
-<use img/skizze.png>
-Package luatex.def Info: img/skizze.png  used on input line 229.
-(luatex.def)             Requested size: 139.37045pt x 128.0374pt.
+<./img/gezeit.PNG>]
+<img/detektor.png, id=638, 768.62157pt x 573.64313pt>
+File: img/detektor.png Graphic file (type png)
+<use img/detektor.png>
+Package luatex.def Info: img/detektor.png  used on input line 226.
+(luatex.def)             Requested size: 190.61852pt x 142.26378pt.
 
-Overfull \vbox (2.05283pt too high) detected at line 229
+Overfull \vbox (15.2792pt too high) detected at line 226
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 229.
+ne 226.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [31
 
@@ -3546,20 +3553,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.30'
 
-<./img/detektor.PNG>]
-<img/elektron.png, id=694, 654.19406pt x 659.46375pt>
-File: img/elektron.png Graphic file (type png)
-<use img/elektron.png>
-Package luatex.def Info: img/elektron.png  used on input line 260.
-(luatex.def)             Requested size: 132.65324pt x 133.72786pt.
+<./img/tide.PNG>]
+<img/skizze.png, id=658, 527.72156pt x 484.81125pt>
+File: img/skizze.png Graphic file (type png)
+<use img/skizze.png>
+Package luatex.def Info: img/skizze.png  used on input line 256.
+(luatex.def)             Requested size: 139.37045pt x 128.0374pt.
 
-Overfull \vbox (9.45729pt too high) detected at line 260
+Overfull \vbox (2.05283pt too high) detected at line 256
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 260.
+ne 256.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [32
 
@@ -3569,20 +3576,53 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.31'
 
-<./img/skizze.PNG>]
-<img/hadron.png, id=714, 670.00313pt x 672.26157pt>
-File: img/hadron.png Graphic file (type png)
-<use img/hadron.png>
-Package luatex.def Info: img/hadron.png  used on input line 282.
-(luatex.def)             Requested size: 133.27238pt x 133.72786pt.
+<./img/detektor.PNG>]
+./experiments.tex:287: Missing { inserted.
+<to be read again> 
+$
+l.287 \end{iframe}
+                
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
 
-Overfull \vbox (9.45729pt too high) detected at line 282
- []
+./experiments.tex:287: Missing } inserted.
+<inserted text> 
+}
+l.287 \end{iframe}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./experiments.tex:287: Missing { inserted.
+<to be read again> 
+$
+l.287 \end{iframe}
+                
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+./experiments.tex:287: Missing } inserted.
+<inserted text> 
+}
+l.287 \end{iframe}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 282.
+ne 287.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [33
 
@@ -3592,20 +3632,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.32'
 
-<./img/elektron.PNG>]
-<img/muon.png, id=733, 640.64343pt x 643.6547pt>
-File: img/muon.png Graphic file (type png)
-<use img/muon.png>
-Package luatex.def Info: img/muon.png  used on input line 302.
-(luatex.def)             Requested size: 133.1021pt x 133.72786pt.
+<./img/skizze.PNG>]
+<img/elektron.png, id=697, 654.19406pt x 659.46375pt>
+File: img/elektron.png Graphic file (type png)
+<use img/elektron.png>
+Package luatex.def Info: img/elektron.png  used on input line 316.
+(luatex.def)             Requested size: 132.65324pt x 133.72786pt.
 
-Overfull \vbox (9.45729pt too high) detected at line 302
+Overfull \vbox (9.45729pt too high) detected at line 316
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 302.
+ne 316.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [34
 
@@ -3615,25 +3655,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.33'
 
-<./img/hadron.PNG>]
-<img/l3wirk.png, id=752, 136.8312pt x 194.8881pt>
-File: img/l3wirk.png Graphic file (type png)
-<use img/l3wirk.png>
-Package luatex.def Info: img/l3wirk.png  used on input line 330.
-(luatex.def)             Requested size: 87.89946pt x 125.19194pt.
-<img/fullwirk.png, id=755, 879.285pt x 648.4225pt>
-File: img/fullwirk.png Graphic file (type png)
-<use img/fullwirk.png>
-Package luatex.def Info: img/fullwirk.png  used on input line 330.
-(luatex.def)             Requested size: 162.048pt x 119.50148pt.
+]
+<img/hadron.png, id=715, 670.00313pt x 672.26157pt>
+File: img/hadron.png Graphic file (type png)
+<use img/hadron.png>
+Package luatex.def Info: img/hadron.png  used on input line 338.
+(luatex.def)             Requested size: 133.27238pt x 133.72786pt.
 
-Overfull \vbox (3.19691pt too high) detected at line 330
+Overfull \vbox (9.45729pt too high) detected at line 338
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 330.
+ne 338.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [35
 
@@ -3643,14 +3678,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.34'
 
-<./img/muon.PNG>]
-Overfull \vbox (2.61722pt too high) detected at line 361
+<./img/elektron.PNG>]
+<img/muon.png, id=734, 640.64343pt x 643.6547pt>
+File: img/muon.png Graphic file (type png)
+<use img/muon.png>
+Package luatex.def Info: img/muon.png  used on input line 358.
+(luatex.def)             Requested size: 133.1021pt x 133.72786pt.
+
+Overfull \vbox (9.45729pt too high) detected at line 358
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 361.
+ne 358.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [36
 
@@ -3660,14 +3701,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.35'
 
-<./img/l3wirk.png><./img/fullwirk.png>]
-Overfull \vbox (2.61722pt too high) detected at line 361
+<./img/hadron.PNG>]
+<img/bhabha.png, id=753, 871.00406pt x 392.96812pt>
+File: img/bhabha.png Graphic file (type png)
+<use img/bhabha.png>
+Package luatex.def Info: img/bhabha.png  used on input line 381.
+(luatex.def)             Requested size: 220.72754pt x 99.58464pt.
+
+Overfull \vbox (16.80238pt too high) detected at line 381
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 361.
+ne 381.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [37
 
@@ -3677,13 +3724,22 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.36'
 
-]
+<./img/muon.PNG>]
+<img/fullwirk.png, id=772, 879.285pt x 648.4225pt>
+File: img/fullwirk.png Graphic file (type png)
+<use img/fullwirk.png>
+Package luatex.def Info: img/fullwirk.png  used on input line 413.
+(luatex.def)             Requested size: 192.90663pt x 142.26378pt.
+
+Overfull \vbox (15.45921pt too high) detected at line 413
+ []
+
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 389.
+ne 413.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
- [38
+[38
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -3691,19 +3747,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.37'
 
-]
-Overfull \hbox (7.9729pt too wide) detected at line 493
-[]
- []
-
-
-Overfull \vbox (13.1676pt too high) detected at line 493
+<./img/bhabha.PNG>]
+Overfull \vbox (2.61722pt too high) detected at line 444
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 493.
+ne 444.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [39
 
@@ -3713,19 +3764,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.38'
 
-]
-Overfull \hbox (7.9729pt too wide) detected at line 493
-[]
- []
-
-
-Overfull \vbox (13.1676pt too high) detected at line 493
+<./img/fullwirk.png>]
+Overfull \vbox (2.61722pt too high) detected at line 444
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 493.
+ne 444.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [40
 
@@ -3736,31 +3782,12 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.39'
 
 ]
-Overfull \hbox (32.14758pt too wide) detected at line 493
-\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
-] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
- + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
-− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
-|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
- [][] [])[])
- []
-
-
-Overfull \hbox (27.88501pt too wide) detected at line 493
-[]
- []
-
-
-Overfull \hbox (7.9729pt too wide) detected at line 493
-[]
- []
-
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 493.
+ne 472.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
-[41
+ [41
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -3769,29 +3796,18 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.40'
 
 ]
-Overfull \hbox (32.14758pt too wide) detected at line 493
-\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
-] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
- + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
-− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
-|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
- [][] [])[])
- []
-
-
-Overfull \hbox (27.88501pt too wide) detected at line 493
+Overfull \hbox (7.9729pt too wide) detected at line 576
 []
  []
 
 
-Overfull \hbox (7.9729pt too wide) detected at line 493
-[]
+Overfull \vbox (13.1676pt too high) detected at line 576
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 493.
+ne 576.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [42
 
@@ -3802,29 +3818,18 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.41'
 
 ]
-Overfull \hbox (32.14758pt too wide) detected at line 493
-\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
-] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
- + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
-− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
-|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
- [][] [])[])
- []
-
-
-Overfull \hbox (27.88501pt too wide) detected at line 493
+Overfull \hbox (7.9729pt too wide) detected at line 576
 []
  []
 
 
-Overfull \hbox (7.9729pt too wide) detected at line 493
-[]
+Overfull \vbox (13.1676pt too high) detected at line 576
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 493.
+ne 576.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [43
 
@@ -3835,7 +3840,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.42'
 
 ]
-Overfull \hbox (32.14758pt too wide) detected at line 493
+Overfull \hbox (32.14758pt too wide) detected at line 576
 \TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
 ] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
  + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
@@ -3845,19 +3850,19 @@ Overfull \hbox (32.14758pt too wide) detected at line 493
  []
 
 
-Overfull \hbox (27.88501pt too wide) detected at line 493
+Overfull \hbox (27.88501pt too wide) detected at line 576
 []
  []
 
 
-Overfull \hbox (7.9729pt too wide) detected at line 493
+Overfull \hbox (7.9729pt too wide) detected at line 576
 []
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 493.
+ne 576.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [44
 
@@ -3868,12 +3873,31 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.43'
 
 ]
+Overfull \hbox (32.14758pt too wide) detected at line 576
+\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
+] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
+ + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
+− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
+|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
+ [][] [])[])
+ []
+
+
+Overfull \hbox (27.88501pt too wide) detected at line 576
+[]
+ []
+
+
+Overfull \hbox (7.9729pt too wide) detected at line 576
+[]
+ []
+
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 514.
+ne 576.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
- [45
+[45
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -3882,19 +3906,29 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.44'
 
 ]
-<img/neutrinogen.png, id=919, 536.0025pt x 512.66531pt>
-File: img/neutrinogen.png Graphic file (type png)
-<use img/neutrinogen.png>
-Package luatex.def Info: img/neutrinogen.png  used on input line 537.
-(luatex.def)             Requested size: 153.6447pt x 146.94815pt.
+Overfull \hbox (32.14758pt too wide) detected at line 576
+\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
+] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
+ + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
+− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
+|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
+ [][] [])[])
+ []
 
-Overfull \vbox (9.71158pt too high) detected at line 537
+
+Overfull \hbox (27.88501pt too wide) detected at line 576
+[]
+ []
+
+
+Overfull \hbox (7.9729pt too wide) detected at line 576
+[]
  []
 
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 537.
+ne 576.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [46
 
@@ -3903,6 +3937,76 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 45'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.45'
+
+]
+Overfull \hbox (32.14758pt too wide) detected at line 576
+\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
+] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
+ + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
+− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
+|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
+ [][] [])[])
+ []
+
+
+Overfull \hbox (27.88501pt too wide) detected at line 576
+[]
+ []
+
+
+Overfull \hbox (7.9729pt too wide) detected at line 576
+[]
+ []
+
+File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
+<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
+Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
+ne 576.
+(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
+[47
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
+46'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.46'
+
+]
+File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
+<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
+Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
+ne 597.
+(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
+ [48
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
+47'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.47'
+
+]
+<img/neutrinogen.png, id=935, 536.0025pt x 512.66531pt>
+File: img/neutrinogen.png Graphic file (type png)
+<use img/neutrinogen.png>
+Package luatex.def Info: img/neutrinogen.png  used on input line 620.
+(luatex.def)             Requested size: 153.6447pt x 146.94815pt.
+
+Overfull \vbox (9.71158pt too high) detected at line 620
+ []
+
+File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
+<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
+Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
+ne 620.
+(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
+[49
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
+48'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.48'
 
 ]) (./vortrag.toc
 Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
@@ -3913,27 +4017,27 @@ File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 58.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
- [47
+ [50
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-46'
+49'
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.46'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.49'
 
 <./img/neutrinogen.PNG>] (./conclusion.tex
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 15.
+ne 16.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
- [48
+ [51
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-47'
+50'
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.47'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.50'
 
 ])
 ./vortrag.tex:65: Missing $ inserted.
@@ -3960,51 +4064,7 @@ File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 65.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
-[49
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-48'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.48'
-
-]
-File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
-<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
-Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 65.
-(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
- [50
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-49'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.49'
-
-<c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
-<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
-Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 65.
-(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
- [51
-
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-50'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.50'
-
-]
-File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
-<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
-Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 65.
-(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
- [52
-
+[52
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -4016,16 +4076,64 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.51'
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 79.
+ne 65.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [53
-
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 52'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.52'
+
+<c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
+<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
+Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
+ne 65.
+(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
+ [54
+
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
+53'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.53'
+
+]
+File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
+<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
+Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
+ne 65.
+(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
+ [55
+
+
+Missing character: There is no � (U+FFFD) in font [fonts/MetaOffcPro-Norm.ttf]
+:mode=node;+tlig;!
+
+warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
+54'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.54'
+
+Missing character: There is no � (U+FFFD) in font [fonts/MetaOffcPro-Norm.ttf]
+:mode=node;+tlig;!
+]
+File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
+<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
+Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
+ne 79.
+(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
+ [56
+
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
+55'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.55'
 
 ]
 \tf@nav=\write8
@@ -4037,13 +4145,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.52'
 \tf@snm=\write10
 
 \openout10 = vortrag.snm
- [54
+ [57
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-53'
+56'
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.53'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.56'
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
@@ -4051,28 +4159,56 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (./vortrag.aux
 Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
 25
+
+./vortrag.aux:334: Extra }, or forgotten \endgroup.
+l.334  {\beamer@framepages {56}{56}}}
+                                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
-Package rerunfilecheck Info: File `vortrag.out' has not changed.
-(rerunfilecheck)             Checksum: B97AF4F11D8265D1A1D6C74920E264E4;1930.
+
+
+Package rerunfilecheck Warning: File `vortrag.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `vortrag.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  54DE075BE0F53D8009F1538BCD12D3CA;2087.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                vortrag
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'vortrag.run.xml'.
 
 \openout1 = vortrag.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 71822 strings out of 494407
+ 71850 strings out of 494407
  125007,2373549 words of node,token memory allocated
- 7174 words of node memory still in use:
+ 7178 words of node memory still in use:
    131 hlist, 34 vlist, 17 rule, 22 disc, 13 local_par, 4 math, 230 glue, 27 ker
-n, 29 penalty, 6 margin_kern, 152 glyph, 267 attribute, 78 glue_spec, 267 attrib
+n, 29 penalty, 6 margin_kern, 152 glyph, 268 attribute, 78 glue_spec, 268 attrib
 ute_list, 6 write, 1 save_pos, 1 user_defined, 88 pdf_literal, 3 pdf_start_link,
  3 pdf_end_link, 2 pdf_dest, 9 pdf_action, 90 pdf_colorstack, 1 pdf_setmatrix, 1
  pdf_save, 1 pdf_restore nodes
-   avail lists: 1:15,2:4045,3:3507,4:530,5:369,6:105,7:7859,8:175,9:2419,10:14,1
-1:346,12:1
- 72467 multiletter control sequences out of 65536+600000
+   avail lists: 1:14,2:4150,3:3519,4:534,5:369,6:107,7:7909,8:175,9:2419,10:14,1
+1:503,12:1
+ 72476 multiletter control sequences out of 65536+600000
  303 fonts using 58474359 bytes
  73i,19n,110p,856b,3679s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><./fon
@@ -4081,10 +4217,10 @@ ath/latinmodern-math.otf><c:/texlive/2018/texmf-dist/fonts/opentype/public/lm-ma
 th/latinmodern-math.otf><c:/texlive/2018/texmf-dist/fonts/opentype/public/lm-mat
 h/latinmodern-math.otf><./fonts/MetaOffcPro-NormIta.ttf><./fonts/MetaOffcPro-Nor
 m.ttf><./fonts/MetaOffcPro-Norm.ttf><./fonts/MetaOffcPro-Bold.ttf>
-Output written on vortrag.pdf (53 pages, 2483570 bytes).
+Output written on vortrag.pdf (56 pages, 2249494 bytes).
 
-PDF statistics: 1155 PDF objects out of 1200 (max. 8388607)
- 788 compressed objects within 8 object streams
- 133 named destinations out of 1000 (max. 131072)
- 652 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1173 PDF objects out of 1200 (max. 8388607)
+ 790 compressed objects within 8 object streams
+ 140 named destinations out of 1000 (max. 131072)
+ 586 words of extra memory for PDF output out of 10000 (max. 100000000)
 

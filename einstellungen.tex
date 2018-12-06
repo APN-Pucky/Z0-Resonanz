@@ -211,14 +211,14 @@ range=bfit/{greek,Greek,latin,Latin,num}]
 
 	\newcommand{\drawtimeline}{%
 		\draw[timelinerule] (\yearcolumnwidth+5pt, 0pt) -- (\yearcolumnwidth+5pt, -\timelineheight);
-		\draw (\yearcolumnwidth+0pt, -10pt) -- (\yearcolumnwidth+10pt, -10pt);
-		\draw (\yearcolumnwidth+0pt, -\timelineheight+15pt) -- (\yearcolumnwidth+10pt, -\timelineheight+15pt);
+		%\draw (\yearcolumnwidth+0pt, -10pt) -- (\yearcolumnwidth+10pt, -10pt);
+		%\draw (\yearcolumnwidth+0pt, -\timelineheight+15pt) -- (\yearcolumnwidth+10pt, -\timelineheight+15pt);
 
 		\pgfmathsetlengthmacro{\templength}{neg(add(multiply(subtract(\startyear, \startyear), divide(subtract(\timelineheight, 25), subtract(\tlendyear, \startyear))), 10))}
-		\node[year] (year-\startyear) at (\yearcolumnwidth, \templength) {\startyear};
+		%\node[year] (year-\startyear) at (\yearcolumnwidth, \templength) {\startyear};
 
 		\pgfmathsetlengthmacro{\templength}{neg(add(multiply(subtract(\tlendyear, \startyear), divide(subtract(\timelineheight, 25), subtract(\tlendyear, \startyear))), 10))}
-		\node[year] (year-\tlendyear) at (\yearcolumnwidth, \templength) {\tlendyear};
+		%\node[year] (year-\tlendyear) at (\yearcolumnwidth, \templength) {\tlendyear};
 	}
 
 	\newcommand{\entry}[2]{%
