@@ -159,9 +159,10 @@
 		%\caption*{Proton-Proton-Kollision \cite{atlas}}
 	%\end{figure}
 	%:w
-	\note[item]{ 1989 am Stanford Linear Collider und LEP}
+	%\note[item]{ 1989 am Stanford Linear Collider und LEP}
 	\note[item]{Tritt nicht auf bei Energien $\approx \SI{100}{GeV}$}
 	\note[item]{ 1996 am LEP, 50 $\rightarrow$ 86 $\rightarrow$  \SI{104.6}{GeV}}
+	\note[item]{Im folgenden Fokus aus LEP 1}
 \end{iframe}
 
 %\subsection{Energiekalibration}
@@ -172,11 +173,12 @@
 	\begin{columns}
 		\begin{column}{0.48\textwidth}
 	\begin{figure}
-		\includegraphics[height=4.8cm]{img/resspin}
-		\caption*{Relative Polarisation\cite{Arnaudon1995}}
+		%\includegraphics[height=4.8cm]{img/resspin}
+		\includegraphics[width=5.8cm]{img/spinrot}
+		\caption*{Spin Depolarisation\cite{Arnaudon1995}}
 	\end{figure}
 \end{column}
-		\begin{column}{0.48\textwidth}
+		\begin{column}{0.50\textwidth}
 			Resonante Spin Depolarisation:
 			\begin{enumerate}
 				\item transversale Polarisation der Strahlen
@@ -188,11 +190,19 @@
 	%\note[item]{Resonante Depolarisation wird auf bunches Angewand die nicht kollidieren}
 	\note[item]{relative Polarisation gegen Energie}
 	\note[item] {$\nu$ Spinpräzessionen pro Speicherringdurchlauf}
-	\note[item] {Polarisation durch Solokov-Ternov Mechanismus, relativistische Elektronen/Positronen polarisieren durch spin-flip synchrotron radiation (92.4\%)}
+	\note[item] {Polarisation durch Synchrotronstrahlung bzw. Solokov-Ternov Mechanismus, relativistische Elektronen/Positronen polarisieren durch spin-flip synchrotron radiation (92.4\%)}
 	\note[item] {Andere Effekte sorgen auch für Spinpräzession}
 	\note[item]{Misst offensichtlich nur gemittelt über mehere Elektronen}
 	\note[item]{Leichte Asymmetrie aufgrund von Gezeiten in 12 Minuten!}
 	% n is determined from the setting of the bending field
+\end{iframe}
+
+\begin{iframe}
+	\framesubtitle{Energiekalibration}
+	\begin{figure}
+			\includegraphics[height=5cm]{img/resspin}
+			\caption*{Relative Polarisation\cite{Arnaudon1995}}
+		\end{figure}
 \end{iframe}
 
 \begin{iframe}
@@ -278,7 +288,7 @@
 			& \mu^- + \mu^+ \\
 			& \tau^- + \tau^+ \\
 			& \nu_{e,\mu,\tau} + \overline{\nu}_{e,\mu,\tau} \\
-			& \text{Hadronen} \\ %TODO Align
+			& q + \overline{q} \\ %TODO Align
 		\end{align*}
 	\end{itemize}
 		\end{column}
@@ -343,17 +353,21 @@
 
 \begin{columns}
 		\begin{column}{0.40\textwidth}
-	\begin{figure}
-		\includegraphics[height=4.70cm]{img/muon}
-		\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow \mu^+ + \mu^-$ \cite{huz0}}
-	\end{figure}
-\end{column}
-		\begin{column}{0.58\textwidth}
+
 			\begin{itemize}
 				\item Messung der Spur der Myonen durch mehrere Myonenkammern
-				\item I.A. keine Absorption
+				\item kaum Absorption
 			\end{itemize}
-\end{column}
+		\end{column}
+		\begin{column}{0.58\textwidth}
+
+	\begin{textblock*}{7cm}(5.5cm,1.0cm) % {block width} (coords)
+	\begin{figure}
+		\includegraphics[height=6.50cm]{img/muon}
+		\caption*{$e^- +e^+ \rightarrow Z^0 \rightarrow \mu^+ + \mu^-$ \cite{huz0}}
+	\end{figure}
+\end{textblock*}
+			\end{column}
 \end{columns}
 		\note[item]{Muon erst an äußeren Platten detektiert}
 \end{iframe}
@@ -361,14 +375,35 @@
 %\iffalse
 \begin{iframe}
 	\framesubtitle{Luminosität}
-	\begin{equation*}
 		%\dot{N}_f = \sigma_f \mathcal{L}
-		\sigma = \frac{N_\text{sel}-N_\text{bg}}{\varepsilon_\text{sel} \mathcal{L}}
-	\end{equation*}
+
+		\begin{columns}
+		\begin{column}{0.70\textwidth}
+			\begin{equation*}
+				\sigma = \frac{N_\text{sel}-N_\text{bg}}{\varepsilon_\text{sel} \mathcal{L}}
+			\end{equation*}
+
 	\begin{figure}
 		\includegraphics[height=3.5cm]{img/bhabha}
 		\caption*{Bhabha Streuung \cite{huz0}}
 	\end{figure}
+
+		\end{column}
+		\begin{column}{0.30\textwidth}
+
+	\begin{textblock*}{6cm}(7.5cm,1.8cm) % {block width} (coords)
+			{\small
+			\begin{align*}
+				\sigma:& \quad \text{Wirkungsquerschnitt}\\
+				N_\text{sel}:& \quad \text{Anzahl der Ereignisse}\\
+				N_\text{bg}:& \quad \text{Hintergrundereignisse}\\
+				\varepsilon_\text{sel}:& \quad \text{Effizienz} \\
+				\mathcal{L}:& \quad \text{Integrierte Luminosität} \\
+			\end{align*} }
+		\end{textblock*}
+		\end{column}
+\end{columns}
+
 	%\note[item] {Gibt Events pro Zeit Detektion pro Wirkungsquerschnitt an.}
 	\note[item]{Luminosität hängt von Beschleuniger ab}
 	\note[item]{sigma ist gesucht}
@@ -453,6 +488,14 @@
 			\begin{equation*}
 				\sigma_f \propto  \frac{s \cdot \Gamma_f \Gamma_e}{(s-M_Z^2)^2 + s^2\Gamma_Z^2/M_Z^2}
 			\end{equation*}
+			{\small
+			\begin{align*}
+			\sigma_f:& \quad \text{Wirkungsquerschnitt} \\
+			\sqrt{s}:& \quad \text{Schwerpunktsenergie}\\
+			\Gamma_i:& \quad \text{Partialbreite}\\
+			\Gamma_Z:& \quad \text{Gesamtbreite}\\
+		\end{align*}
+			}
 		\end{column}
 		\begin{column}{0.48\textwidth}
 		\end{column}
@@ -546,6 +589,13 @@
 		\action<+->{&=\SI{2.42}{GeV}\\}
 		\action<+->{&\xrightarrow[\text{korrektur}]{\text{Strahlungs-}}\SI{2.497}{GeV}\\}
 	\end{align*}
+	\only<6> {
+	\begin{textblock*}{2.6cm}(3.0cm,6.6cm)
+		\begin{figure}
+			\includegraphics[width=2.6cm]{img/strahl}
+		\end{figure}
+			\end{textblock*}
+				}
 	\only<1> {
 		\note[item] {Breite ergibt sich aus Partial Breiten}
 	}
@@ -609,7 +659,7 @@
 			\begin{itemize}
 				\item OPAL-Detektor am LEP
 				\item Messung bestätigt vermutete 3 Neutrinogenerationen
-				\item Hinweis für 3 Generationen von Leptonen und Quarks
+				\item Beleg für 3 Generationen von Leptonen und Quarks
 			\end{itemize}
 		\end{column}
 \end{columns}
