@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.10.19)  10 DEC 2018 18:00
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.10.19)  10 DEC 2018 20:23
  restricted system commands enabled.
  file:line:error style messages enabled.
 **vortrag
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.227 seconds (c:/texlive/2018/
+luaotfload | main : initialization completed in 0.234 seconds (c:/texlive/2018/
 texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/09/20 v3.54 A class for typesetting presentations
 (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -1474,24 +1474,24 @@ Lua module: polyglossia 2013/05/11 1.3 Polyglossia)
 (c:/texlive/2018/texmf-dist/tex/latex/polyglossia/gloss-german.ldf
 File: gloss-german.ldf polyglossia: module for german
 Module polyglossia Info: Language data for german
-(polyglossia)            synonyms	table: 0B57E820
-(polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            hyphenation	
+(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            righthyphenmin	2
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            synonyms	table: 0ADF4A38
 (polyglossia)            patterns: hyph-de-1901.pat.txt on input line 6
 Module polyglossia Info: Language german was not yet loaded; created with id 4 o
 n input line 6
 Module polyglossia Info: Language german already loaded; id is 4 on input line 6
 
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            synonyms	table: 0B57E5C8
-(polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            hyphenation	
+(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            righthyphenmin	2
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            synonyms	table: 0ADF4C40
 (polyglossia)            patterns: hyph-de-1996.pat.txt on input line 68
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 8 
 on input line 68
@@ -2351,7 +2351,7 @@ Grid set 16 x 16 = 22.7622pt x 17.07166pt
 \TP@tbargs=\toks54
 \TP@prevdepth=\dimen352
 TextBlockOrigin set to 0pt x 0pt
-) (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
+)) (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
 Package: pgfpages 2011/01/05 ver 0.02
 \pgf@logicalpages=\count503
 \pgf@firstshipout=\count504
@@ -2362,9 +2362,6 @@ Package: pgfpages 2011/01/05 ver 0.02
 \pgfphysicalheight=\dimen353
 \pgfphysicalwidth=\dimen354
 \pgfpages@shipoutbox=\box97
-)
-\pgfpages@box@1=\box98
-\pgfpages@box@2=\box99
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2453,7 +2450,7 @@ LaTeX Font Info:    ... okay on input line 22.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count509
 \scratchdimen=\dimen355
-\scratchbox=\box100
+\scratchbox=\box98
 \nofMPsegments=\count510
 \nofMParguments=\count511
 \everyMPshowfont=\toks55
@@ -2480,7 +2477,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box101
+\AtBeginShipoutBox=\box99
 Package hyperref Info: Link coloring OFF on input line 22.
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
@@ -2671,15 +2668,12 @@ File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 29.
 (luatex.def)             Requested size: 96.03328pt x 27.75836pt.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 29.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.0001pt on input line 29.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 29.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 6.9999pt on input line 29.
- (./vortrag.toc
+ [1
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./wwustyle/WWUMue
+nster_Logo_2017_4c.pdf><./wwustyle/pantone312glocke.pdf><./wwustyle/wissenlebeng
+rey.pdf>]
+(./vortrag.toc
 Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
 3
 )
@@ -2688,17 +2682,22 @@ File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 40.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
+ [2
 
-[2
+]
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-1'
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 49.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
-<./wwustyle/WWUMuenster_Logo_2017_4c.pdf><./wwustyle/pantone312glocke.pdf><./wwu
-style/wissenlebengrey.pdf>] (./vortrag.toc
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 49.
+
+(./vortrag.toc
 Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
 3
 )
@@ -2708,12 +2707,6 @@ Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 49.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [3
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-2'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 
 ] (./timeline.tex
 
@@ -2727,11 +2720,24 @@ Overfull \hbox (12.97568pt too wide) in paragraph at lines 64--64
 [][] 
  []
 
-<img/weinberg_glasgow_salam.jpg, id=131, 616.3025pt x 288.07625pt>
+<img/weinberg_glasgow_salam.jpg, id=123, 616.3025pt x 288.07625pt>
 File: img/weinberg_glasgow_salam.jpg Graphic file (type jpg)
 <use img/weinberg_glasgow_salam.jpg>
 Package luatex.def Info: img/weinberg_glasgow_salam.jpg  used on input line 64.
 (luatex.def)             Requested size: 113.81102pt x 53.19656pt.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 64.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 14.00021pt on input line 64.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 9.8001pt on input line 64.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 7.0001pt on input line 64.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 13.99979pt on input line 64.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 9.7998pt on input line 64.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 6.9999pt on input line 64.
 
 Overfull \vbox (8.45996pt too high) detected at line 64
  []
@@ -2743,13 +2749,7 @@ ne 64.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [4
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-3'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
-
-]
+<./img/weinberg_glasgow_salam.jpg>]
 Overfull \hbox (12.97568pt too wide) in paragraph at lines 64--64
 [][] 
  []
@@ -2765,13 +2765,7 @@ ne 64.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [5
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-4'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.4'
-
-<./img/weinberg_glasgow_salam.jpg>]
+]
 
 Package textpos Warning: environment textblock* not in vertical mode. 
 (textpos)                Environment textblock* should not have any text
@@ -2783,7 +2777,7 @@ Overfull \hbox (12.97568pt too wide) in paragraph at lines 64--64
 [][] 
  []
 
-<img/rubbiameer.png, id=164, 619.56468pt x 469.755pt>
+<img/rubbiameer.png, id=145, 619.56468pt x 469.755pt>
 File: img/rubbiameer.png Graphic file (type png)
 <use img/rubbiameer.png>
 Package luatex.def Info: img/rubbiameer.png  used on input line 64.
@@ -2799,13 +2793,7 @@ ne 64.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [6
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-5'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.5'
-
-]
+<./img/rubbiameer.PNG>]
 Overfull \hbox (12.97568pt too wide) in paragraph at lines 64--64
 [][] 
  []
@@ -2821,13 +2809,7 @@ ne 64.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [7
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-6'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.6'
-
-<./img/rubbiameer.PNG>]
+]
 Overfull \hbox (12.97568pt too wide) in paragraph at lines 64--64
 [][] 
  []
@@ -2843,12 +2825,6 @@ ne 64.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [8
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-7'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.7'
-
 ]) (./vortrag.toc
 Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
 3
@@ -2860,14 +2836,8 @@ ne 53.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [9
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-8'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.8'
-
 ] (./theory.tex
-<img/standardmodel.png, id=224, 722.7pt x 692.5875pt>
+<img/standardmodel.png, id=194, 722.7pt x 692.5875pt>
 File: img/standardmodel.png Graphic file (type png)
 <use img/standardmodel.png>
 Package luatex.def Info: img/standardmodel.png  used on input line 49.
@@ -2883,21 +2853,8 @@ ne 49.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [10
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-9'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.9'
-
-]
-Overfull \vbox (4.3853pt too high) detected at line 49
- []
-
-
-Overfull \vbox (23.50003pt too high) detected at line 49
- []
-
-<img/isospin.png, id=248, 590.205pt x 324.46219pt>
+<./img/standardmodel.png>]
+<img/isospin.png, id=209, 590.205pt x 324.46219pt>
 File: img/isospin.png Graphic file (type png)
 <use img/isospin.png>
 Package luatex.def Info: img/isospin.png  used on input line 115.
@@ -2913,14 +2870,8 @@ ne 115.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [11
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-10'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.10'
-
-<./img/standardmodel.png>]
-<img/betadecay_old.png, id=269, 698.61pt x 584.1825pt>
+<./img/isospin.PNG>]
+<img/betadecay_old.png, id=223, 698.61pt x 584.1825pt>
 File: img/betadecay_old.png Graphic file (type png)
 <use img/betadecay_old.png>
 Package luatex.def Info: img/betadecay_old.png  used on input line 176.
@@ -2929,12 +2880,12 @@ File: img/betadecay_old.png Graphic file (type png)
 <use img/betadecay_old.png>
 Package luatex.def Info: img/betadecay_old.png  used on input line 176.
 (luatex.def)             Requested size: 153.11903pt x 128.0374pt.
-<img/betadecay.png, id=274, 167.6664pt x 140.2038pt>
+<img/betadecay.png, id=228, 167.6664pt x 140.2038pt>
 File: img/betadecay.png Graphic file (type png)
 <use img/betadecay.png>
 Package luatex.def Info: img/betadecay.png  used on input line 176.
 (luatex.def)             Requested size: 153.11646pt x 128.0374pt.
-<img/kaondecay.png, id=277, 246.6816pt x 184.0476pt>
+<img/kaondecay.png, id=231, 246.6816pt x 184.0476pt>
 File: img/kaondecay.png Graphic file (type png)
 <use img/kaondecay.png>
 Package luatex.def Info: img/kaondecay.png  used on input line 176.
@@ -2963,60 +2914,6 @@ Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 176.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [12
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-11'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.11'
-
-<./img/isospin.PNG>]
-File: img/betadecay_old.png Graphic file (type png)
-<use img/betadecay_old.png>
-Package luatex.def Info: img/betadecay_old.png  used on input line 176.
-(luatex.def)             Requested size: 153.11903pt x 128.0374pt.
-File: img/betadecay_old.png Graphic file (type png)
-<use img/betadecay_old.png>
-Package luatex.def Info: img/betadecay_old.png  used on input line 176.
-(luatex.def)             Requested size: 153.11903pt x 128.0374pt.
-File: img/betadecay.png Graphic file (type png)
-<use img/betadecay.png>
-Package luatex.def Info: img/betadecay.png  used on input line 176.
-(luatex.def)             Requested size: 153.11646pt x 128.0374pt.
-File: img/kaondecay.png Graphic file (type png)
-<use img/kaondecay.png>
-Package luatex.def Info: img/kaondecay.png  used on input line 176.
-(luatex.def)             Requested size: 171.60693pt x 128.0374pt.
-
-Overfull \hbox (10.45192pt too wide) in paragraph at lines 176--176
- [] 
- []
-
-File: img/kaondecay.png Graphic file (type png)
-<use img/kaondecay.png>
-Package luatex.def Info: img/kaondecay.png  used on input line 176.
-(luatex.def)             Requested size: 171.60693pt x 128.0374pt.
-
-Overfull \hbox (10.45192pt too wide) in paragraph at lines 176--176
- [] 
- []
-
-
-Overfull \vbox (5.75284pt too high) detected at line 176
- []
-
-File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
-<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
-Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
-ne 176.
-(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
-[13
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-12'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.12'
 
 <./img/betadecay_old.png>]
 File: img/betadecay_old.png Graphic file (type png)
@@ -3058,13 +2955,7 @@ File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 176.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
-[14
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-13'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.13'
+[13
 
 ]
 File: img/betadecay_old.png Graphic file (type png)
@@ -3106,13 +2997,7 @@ File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 176.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
-[15
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-14'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.14'
+[14
 
 <./img/betadecay.png>]
 File: img/betadecay_old.png Graphic file (type png)
@@ -3154,27 +3039,57 @@ File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 176.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
-[16
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-15'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.15'
+[15
 
 <./img/kaondecay.png>]
+File: img/betadecay_old.png Graphic file (type png)
+<use img/betadecay_old.png>
+Package luatex.def Info: img/betadecay_old.png  used on input line 176.
+(luatex.def)             Requested size: 153.11903pt x 128.0374pt.
+File: img/betadecay_old.png Graphic file (type png)
+<use img/betadecay_old.png>
+Package luatex.def Info: img/betadecay_old.png  used on input line 176.
+(luatex.def)             Requested size: 153.11903pt x 128.0374pt.
+File: img/betadecay.png Graphic file (type png)
+<use img/betadecay.png>
+Package luatex.def Info: img/betadecay.png  used on input line 176.
+(luatex.def)             Requested size: 153.11646pt x 128.0374pt.
+File: img/kaondecay.png Graphic file (type png)
+<use img/kaondecay.png>
+Package luatex.def Info: img/kaondecay.png  used on input line 176.
+(luatex.def)             Requested size: 171.60693pt x 128.0374pt.
+
+Overfull \hbox (10.45192pt too wide) in paragraph at lines 176--176
+ [] 
+ []
+
+File: img/kaondecay.png Graphic file (type png)
+<use img/kaondecay.png>
+Package luatex.def Info: img/kaondecay.png  used on input line 176.
+(luatex.def)             Requested size: 171.60693pt x 128.0374pt.
+
+Overfull \hbox (10.45192pt too wide) in paragraph at lines 176--176
+ [] 
+ []
+
+
+Overfull \vbox (5.75284pt too high) detected at line 176
+ []
+
+File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
+<use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
+Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
+ne 176.
+(luatex.def)             Requested size: 64.02327pt x 18.50587pt.
+[16
+
+]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 211.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [17
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-16'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.16'
 
 ]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
@@ -3184,12 +3099,6 @@ ne 211.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [18
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-17'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.17'
-
 ]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
@@ -3197,12 +3106,6 @@ Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 211.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [19
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-18'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.18'
 
 ]) (./vortrag.toc
 Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
@@ -3215,14 +3118,8 @@ ne 55.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [20
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-19'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.19'
-
 ] (./experiments.tex
-<img/neutralerstrom.jpg, id=470, 249.0906pt x 302.5704pt>
+<img/neutralerstrom.jpg, id=378, 249.0906pt x 302.5704pt>
 File: img/neutralerstrom.jpg Graphic file (type jpg)
 <use img/neutralerstrom.jpg>
 Package luatex.def Info: img/neutralerstrom.jpg  used on input line 31.
@@ -3242,13 +3139,7 @@ ne 31.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [21
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-20'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.20'
-
-]
+<./img/neutralerstrom.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 33.
@@ -3345,20 +3236,11 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<img/zeit.png, id=506, 476.982pt x 54.2025pt>
+<img/zeit.png, id=396, 476.982pt x 54.2025pt>
 File: img/zeit.png Graphic file (type png)
 <use img/zeit.png>
 Package luatex.def Info: img/zeit.png  used on input line 64.
 (luatex.def)             Requested size: 62.59209pt x 7.11317pt.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 64.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.00021pt on input line 64.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.8001pt on input line 64.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 13.99979pt on input line 64.
-LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 9.7998pt on input line 64.
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
@@ -3366,14 +3248,8 @@ ne 64.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [22
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-21'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.21'
-
-<./img/neutralerstrom.jpg>]
-<img/protonproton.jpg, id=531, 443.40656pt x 202.50656pt>
+<./img/zeit.png>]
+<img/protonproton.jpg, id=407, 443.40656pt x 202.50656pt>
 File: img/protonproton.jpg Graphic file (type jpg)
 <use img/protonproton.jpg>
 Package luatex.def Info: img/protonproton.jpg  used on input line 96.
@@ -3389,14 +3265,8 @@ ne 96.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [23
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-22'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.22'
-
-<./img/zeit.png>]
-<img/lego.png, id=551, 719.68875pt x 600.74437pt>
+<./img/protonproton.jpg>]
+<img/lego.png, id=420, 719.68875pt x 600.74437pt>
 File: img/lego.png Graphic file (type png)
 <use img/lego.png>
 Package luatex.def Info: img/lego.png  used on input line 118.
@@ -3408,14 +3278,8 @@ ne 118.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [24
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-23'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.23'
-
-<./img/protonproton.jpg>]
-<img/lep.png, id=575, 154.6578pt x 148.6353pt>
+<./img/lego.PNG>]
+<img/lep.png, id=432, 154.6578pt x 148.6353pt>
 File: img/lep.png Graphic file (type png)
 <use img/lep.png>
 Package luatex.def Info: img/lep.png  used on input line 143.
@@ -3431,13 +3295,11 @@ ne 143.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [25
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-24'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.24'
-
-<./img/lego.PNG>]
+<./img/lep.png>]
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 10.00015pt on input line 169.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 9.99985pt on input line 169.
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
@@ -3445,14 +3307,8 @@ ne 169.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [26
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-25'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.25'
-
-<./img/lep.png>]
-<img/spinrot.png, id=609, 898.10532pt x 457.71pt>
+]
+<img/spinrot.png, id=454, 898.10532pt x 457.71pt>
 File: img/spinrot.png Graphic file (type png)
 <use img/spinrot.png>
 Package luatex.def Info: img/spinrot.png  used on input line 199.
@@ -3469,14 +3325,8 @@ ne 199.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [27
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-26'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.26'
-
-]
-<img/resspin.png, id=626, 549.55313pt x 639.89063pt>
+<./img/spinrot.PNG>]
+<img/resspin.png, id=468, 549.55313pt x 639.89063pt>
 File: img/resspin.png Graphic file (type png)
 <use img/resspin.png>
 Package luatex.def Info: img/resspin.png  used on input line 210.
@@ -3492,14 +3342,8 @@ ne 210.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [28
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-27'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.27'
-
-<./img/spinrot.PNG>]
-<img/gezeit.png, id=646, 819.8128pt x 509.65407pt>
+<./img/resspin.PNG>]
+<img/gezeit.png, id=481, 819.8128pt x 509.65407pt>
 File: img/gezeit.png Graphic file (type png)
 <use img/gezeit.png>
 Package luatex.def Info: img/gezeit.png  used on input line 231.
@@ -3515,14 +3359,8 @@ ne 231.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [29
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-28'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.28'
-
-<./img/resspin.PNG>]
-<img/tide.png, id=665, 602.25pt x 604.50844pt>
+<./img/gezeit.PNG>]
+<img/tide.png, id=495, 602.25pt x 604.50844pt>
 File: img/tide.png Graphic file (type png)
 <use img/tide.png>
 Package luatex.def Info: img/tide.png  used on input line 231.
@@ -3550,14 +3388,8 @@ ne 231.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [30
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-29'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.29'
-
-<./img/gezeit.PNG>]
-<img/detektor.png, id=686, 768.62157pt x 573.64313pt>
+<./img/tide.PNG>]
+<img/detektor.png, id=509, 768.62157pt x 573.64313pt>
 File: img/detektor.png Graphic file (type png)
 <use img/detektor.png>
 Package luatex.def Info: img/detektor.png  used on input line 241.
@@ -3573,14 +3405,8 @@ ne 241.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [31
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-30'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.30'
-
-<./img/tide.PNG>]
-<img/skizze.png, id=706, 527.72156pt x 484.81125pt>
+<./img/detektor.PNG>]
+<img/skizze.png, id=524, 527.72156pt x 484.81125pt>
 File: img/skizze.png Graphic file (type png)
 <use img/skizze.png>
 Package luatex.def Info: img/skizze.png  used on input line 271.
@@ -3596,13 +3422,7 @@ ne 271.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [32
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-31'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.31'
-
-<./img/detektor.PNG>]
+<./img/skizze.PNG>]
 ./experiments.tex:302: Missing { inserted.
 <to be read again> 
 $
@@ -3652,14 +3472,8 @@ ne 302.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [33
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-32'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.32'
-
-<./img/skizze.PNG>]
-<img/elektron.png, id=744, 654.19406pt x 659.46375pt>
+]
+<img/elektron.png, id=548, 654.19406pt x 659.46375pt>
 File: img/elektron.png Graphic file (type png)
 <use img/elektron.png>
 Package luatex.def Info: img/elektron.png  used on input line 331.
@@ -3675,14 +3489,8 @@ ne 331.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [34
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-33'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.33'
-
-]
-<img/hadron.png, id=762, 670.00313pt x 672.26157pt>
+<./img/elektron.PNG>]
+<img/hadron.png, id=561, 670.00313pt x 672.26157pt>
 File: img/hadron.png Graphic file (type png)
 <use img/hadron.png>
 Package luatex.def Info: img/hadron.png  used on input line 353.
@@ -3698,14 +3506,8 @@ ne 353.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [35
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-34'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.34'
-
-<./img/elektron.PNG>]
-<img/muon.png, id=781, 640.64343pt x 643.6547pt>
+<./img/hadron.PNG>]
+<img/muon.png, id=574, 640.64343pt x 643.6547pt>
 File: img/muon.png Graphic file (type png)
 <use img/muon.png>
 Package luatex.def Info: img/muon.png  used on input line 377.
@@ -3717,14 +3519,8 @@ ne 377.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [36
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-35'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.35'
-
-<./img/hadron.PNG>]
-<img/bhabha.png, id=800, 871.00406pt x 392.96812pt>
+<./img/muon.PNG>]
+<img/bhabha.png, id=587, 871.00406pt x 392.96812pt>
 File: img/bhabha.png Graphic file (type png)
 <use img/bhabha.png>
 Package luatex.def Info: img/bhabha.png  used on input line 421.
@@ -3740,14 +3536,8 @@ ne 421.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [37
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-36'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.36'
-
-<./img/muon.PNG>]
-<img/fullwirk.png, id=818, 879.285pt x 648.4225pt>
+<./img/bhabha.PNG>]
+<img/fullwirk.png, id=600, 879.285pt x 648.4225pt>
 File: img/fullwirk.png Graphic file (type png)
 <use img/fullwirk.png>
 Package luatex.def Info: img/fullwirk.png  used on input line 453.
@@ -3763,13 +3553,7 @@ ne 453.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [38
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-37'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.37'
-
-<./img/bhabha.PNG>]
+<./img/fullwirk.png>]
 Overfull \vbox (2.61722pt too high) detected at line 485
  []
 
@@ -3780,13 +3564,7 @@ ne 485.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [39
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-38'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.38'
-
-<./img/fullwirk.png>]
+]
 Overfull \vbox (2.61722pt too high) detected at line 485
  []
 
@@ -3797,12 +3575,6 @@ ne 485.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [40
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-39'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.39'
-
 ]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
@@ -3810,12 +3582,6 @@ Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 521.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [41
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-40'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.40'
 
 ]
 Overfull \hbox (7.9729pt too wide) detected at line 632
@@ -3833,12 +3599,6 @@ ne 632.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [42
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-41'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.41'
-
 ]
 Overfull \hbox (7.9729pt too wide) detected at line 632
 []
@@ -3855,20 +3615,14 @@ ne 632.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [43
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-42'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.42'
-
 ]
-Overfull \hbox (32.14758pt too wide) detected at line 632
+Overfull \hbox (32.85933pt too wide) detected at line 632
 \TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
 ] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
  + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
-− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
-|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
- [][] [])[])
+− \TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 4\TU/LatinModernMath(1)/m/n/10.95 |\T
+U/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 | []
+[] [])[])
  []
 
 
@@ -3888,20 +3642,14 @@ ne 632.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [44
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-43'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.43'
-
 ]
-Overfull \hbox (32.14758pt too wide) detected at line 632
+Overfull \hbox (32.85933pt too wide) detected at line 632
 \TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
 ] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
  + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
-− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
-|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
- [][] [])[])
+− \TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 4\TU/LatinModernMath(1)/m/n/10.95 |\T
+U/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 | []
+[] [])[])
  []
 
 
@@ -3921,20 +3669,14 @@ ne 632.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [45
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-44'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.44'
-
 ]
-Overfull \hbox (32.14758pt too wide) detected at line 632
+Overfull \hbox (32.85933pt too wide) detected at line 632
 \TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
 ] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
  + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
-− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
-|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
- [][] [])[])
+− \TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 4\TU/LatinModernMath(1)/m/n/10.95 |\T
+U/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 | []
+[] [])[])
  []
 
 
@@ -3954,20 +3696,14 @@ ne 632.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [46
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-45'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.45'
-
 ]
-Overfull \hbox (32.14758pt too wide) detected at line 632
+Overfull \hbox (32.85933pt too wide) detected at line 632
 \TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 Γ[] \TU/LatinModernMath(1)/m/n/10.95 = [
 ] ⋅ (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95
  + (\TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 1 \TU/LatinModernMath(1)/m/n/10.95 
-− \TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 e\TU/LatinModernMath(1)/m/n/10.95 
-|\TU/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 |
- [][] [])[])
+− \TU/MetaOffcPro-Norm.ttf(0)/m/n/10.95 4\TU/LatinModernMath(1)/m/n/10.95 |\T
+U/MetaOffcPro-NormIta.ttf(0)/m/n/10.95 Q[]\TU/LatinModernMath(1)/m/n/10.95 | []
+[] [])[])
  []
 
 
@@ -3986,7 +3722,7 @@ Package textpos Warning: environment textblock* not in vertical mode.
 (textpos)                or printable material appearing before it.
 (textpos)                Alignment may work out wrongly. on input line 632.
 
-<img/strahl.png, id=951, 795.72281pt x 477.28313pt>
+<img/strahl.png, id=685, 795.72281pt x 477.28313pt>
 File: img/strahl.png Graphic file (type png)
 <use img/strahl.png>
 Package luatex.def Info: img/strahl.png  used on input line 632.
@@ -3998,13 +3734,7 @@ ne 632.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [47
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-46'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.46'
-
-]
+<./img/strahl.PNG>]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
@@ -4012,14 +3742,8 @@ ne 653.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [48
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-47'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.47'
-
-<./img/strahl.PNG>]
-<img/neutrinogen.png, id=982, 536.0025pt x 512.66531pt>
+]
+<img/neutrinogen.png, id=705, 536.0025pt x 512.66531pt>
 File: img/neutrinogen.png Graphic file (type png)
 <use img/neutrinogen.png>
 Package luatex.def Info: img/neutrinogen.png  used on input line 676.
@@ -4035,13 +3759,7 @@ ne 676.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [49
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-48'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.48'
-
-]) (./vortrag.toc
+<./img/neutrinogen.PNG>]) (./vortrag.toc
 Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
 3
 )
@@ -4052,25 +3770,13 @@ ne 58.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [50
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-49'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.49'
-
-<./img/neutrinogen.PNG>] (./conclusion.tex
+] (./conclusion.tex
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 16.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [51
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-50'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.50'
 
 ])
 ./vortrag.tex:65: Missing $ inserted.
@@ -4099,27 +3805,17 @@ ne 65.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
 [52
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-51'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.51'
-
-]
+<c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 65.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
- [53
+
+[53
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-52'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.52'
-
-<c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
 Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
@@ -4128,12 +3824,8 @@ ne 65.
  [54
 
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-53'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.53'
-
+Missing character: There is no � (U+FFFD) in font [fonts/MetaOffcPro-Norm.ttf]
+:mode=node;+tlig;!
 ]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
@@ -4143,16 +3835,6 @@ ne 65.
  [55
 
 
-Missing character: There is no � (U+FFFD) in font [fonts/MetaOffcPro-Norm.ttf]
-:mode=node;+tlig;!
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-54'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.54'
-
-Missing character: There is no � (U+FFFD) in font [fonts/MetaOffcPro-Norm.ttf]
-:mode=node;+tlig;!
 ]
 File: wwustyle/WWUMuenster_Logo_2017_4c.pdf Graphic file (type pdf)
 <use wwustyle/WWUMuenster_Logo_2017_4c.pdf>
@@ -4160,13 +3842,6 @@ Package luatex.def Info: wwustyle/WWUMuenster_Logo_2017_4c.pdf  used on input li
 ne 79.
 (luatex.def)             Requested size: 64.02327pt x 18.50587pt.
  [56
-
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-55'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.55'
 
 ]
 \tf@nav=\write8
@@ -4178,15 +3853,6 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.55'
 \tf@snm=\write10
 
 \openout10 = vortrag.snm
- [57
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-56'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.56'
-
-]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (./vortrag.aux
@@ -4196,40 +3862,36 @@ Module polyglossia Info: Language ngerman already loaded; id is 8 on input line
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `vortrag.out' has not changed.
-(rerunfilecheck)             Checksum: AA8AC6EE9189BDBC76BE6CC029EC3C3A;2087.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: F5081AF9F82BB4F9A1FBD2BD58F890A1;2158.
 Package logreq Info: Writing requests to 'vortrag.run.xml'.
 
 \openout1 = vortrag.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 71953 strings out of 494407
- 125009,2373549 words of node,token memory allocated
- 7178 words of node memory still in use:
-   131 hlist, 34 vlist, 17 rule, 22 disc, 13 local_par, 4 math, 230 glue, 27 ker
-n, 29 penalty, 6 margin_kern, 152 glyph, 268 attribute, 78 glue_spec, 268 attrib
-ute_list, 6 write, 1 save_pos, 1 user_defined, 88 pdf_literal, 3 pdf_start_link,
- 3 pdf_end_link, 2 pdf_dest, 9 pdf_action, 90 pdf_colorstack, 1 pdf_setmatrix, 1
- pdf_save, 1 pdf_restore nodes
-   avail lists: 1:11,2:4198,3:3512,4:534,5:369,6:106,7:6568,8:175,9:2419,10:14,1
-1:491,12:1
- 72573 multiletter control sequences out of 65536+600000
- 303 fonts using 58474895 bytes
- 73i,19n,110p,856b,3679s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 71813 strings out of 494407
+ 100000,2373549 words of node,token memory allocated
+ 3639 words of node memory still in use:
+   67 hlist, 12 vlist, 9 rule, 8 disc, 5 local_par, 2 math, 103 glue, 13 kern, 1
+2 penalty, 3 margin_kern, 61 glyph, 164 attribute, 77 glue_spec, 164 attribute_l
+ist, 5 write, 1 save_pos, 1 user_defined, 42 pdf_literal, 1 pdf_start_link, 1 pd
+f_end_link, 6 pdf_action, 38 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_
+restore nodes
+   avail lists: 1:7,2:3331,3:1717,4:263,5:147,6:37,7:3422,8:128,9:953,10:14,11:1
+60,12:1
+ 72433 multiletter control sequences out of 65536+600000
+ 303 fonts using 58474091 bytes
+ 73i,19n,110p,856b,3675s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><./fon
 ts/MetaScOffcPro-Norm.ttf><c:/texlive/2018/texmf-dist/fonts/opentype/public/lm-m
 ath/latinmodern-math.otf><c:/texlive/2018/texmf-dist/fonts/opentype/public/lm-ma
 th/latinmodern-math.otf><c:/texlive/2018/texmf-dist/fonts/opentype/public/lm-mat
 h/latinmodern-math.otf><./fonts/MetaOffcPro-NormIta.ttf><./fonts/MetaOffcPro-Nor
 m.ttf><./fonts/MetaOffcPro-Norm.ttf><./fonts/MetaOffcPro-Bold.ttf>
-Output written on vortrag.pdf (56 pages, 2316845 bytes).
+Output written on vortrag.pdf (56 pages, 2248713 bytes).
 
-PDF statistics: 1220 PDF objects out of 1440 (max. 8388607)
- 831 compressed objects within 9 object streams
+PDF statistics: 882 PDF objects out of 1000 (max. 8388607)
+ 605 compressed objects within 7 object streams
  140 named destinations out of 1000 (max. 131072)
  690 words of extra memory for PDF output out of 10000 (max. 100000000)
 
